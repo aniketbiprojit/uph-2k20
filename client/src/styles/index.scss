@@ -1,16 +1,23 @@
 @import "fonts.scss";
 @import 'colors.scss';
 @import 'App.scss';
+@import 'Upper.scss';
+@import 'Nav.scss';
 
 *{
   margin: 0;
   padding: 0;
+  margin: 1px solid blue;
 }
 
 body {
   color: $secondary;
   background-color: $primary;
   font-family: $primary-font;
+}
+
+.row{
+  margin:0;
 }
 
 code {
