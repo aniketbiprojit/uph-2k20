@@ -1,5 +1,38 @@
-section.Upper{
-    width:100%;
-    margin:1rem 0;
-    height:100vh;
+section.Upper {
+	width: 100%;
+	padding: 2rem 0;
+	height: 100vh;
+	.dabba {
+		position: absolute;
+		width: 100%;
+		margin: 0;
+		padding: 0 5rem;
+		bottom: 8rem;
+		.scroll {
+			float: right;
+			.inner {
+                .text {
+                    margin:0 auto;
+                    width: fit-content;
+					font-weight: 600;
+					text-align: right;
+				}
+			}
+		}
+		.dates {
+			.light {
+				// float:right;
+				text-align: right;
+				// width:fit-content;
+			}
+			.heavy {
+				line-height: 1;
+				// float:right;
+				// width:fit-content;
+				text-align: right;
+				font-weight: 900;
+				font-size: 3rem;
+			}
+		}
+	}
 }

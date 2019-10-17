@@ -10,11 +10,20 @@ export default class Nav extends Component {
 							<p className="inner">
 								UPHORIA
 								<br />
-								2020
+								2k20
 							</p>
 						</div>
 					</div>
-					<div className="right   col-6"></div>
+					<div className="right  col-6">
+            <nav className="row">
+              <div className="elem col-2"></div>
+              <div className="elem col-2"><p className="text">  About Us</p></div>
+              <div className="elem col-2"><p className="text">  Theme</p></div>
+              <div className="elem col-2"><p className="text">  Sponsors</p></div>
+              <div className="elem col-2"><p className="text">  Archives</p></div>
+              <div className="elem col-2"><p className="text">  Register</p></div>
+            </nav>
+          </div>
 				</div>
 			</div>
 		)
