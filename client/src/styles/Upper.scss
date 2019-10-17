@@ -1,6 +1,9 @@
 section.Upper {
 	width: 100%;
-	padding: 2rem 0;
+	padding: 2rem 0 ;
+	@media only screen and (max-width:768px) {
+		padding:1rem 0;
+	}
 	height: 100vh;
 	.dabba {
 		position: absolute;
