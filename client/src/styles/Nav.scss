@@ -3,7 +3,8 @@
   margin: 0;
   // padding: 0 10rem;
   .inner1 {
-    width: 100%;
+	width: 100%;
+	padding:0 10rem !important	;
 
     @media only screen and (max-width: 768px) {
       text-align: center;
@@ -28,12 +29,13 @@
 
           text-align: center;
           @media only screen and (min-width: 768px) {
-            // width: fit-content;
+            width: fit-content;
           }
         }
       }
     }
     .right {
+		padding: 0 !important	;
       @media only screen and (max-width: 768px) {
         display: none;
       }
@@ -44,4 +46,8 @@
       }
     }
   }
+}
+nav.row{
+	padding: 0 !important;
+
 }
