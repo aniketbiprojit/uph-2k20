@@ -1,16 +1,21 @@
-import React, { Component } from 'react'
-import aboutImg from '../assets/about.png'
-export default class About extends Component {
-	render() {
-		return (
-			<section className="Common About ">
+import React, { Component } from 'react';
+import themeImage from '../assets/Theme.png';
+import "../styles/Theme.scss";
+class Theme extends Component {
+    state = {  }
+    render() { 
+        return ( 
+        <React.Fragment>
+            	<section className="Common Theme">
 				<div className="inner">
 					<div className="content row">
-					<div className="imagePhone">
-								<img className="imageSize" src={aboutImg} alt="" />
+					<div className="art col-sm-12 col-md-6">
+							<div className="imageTheme">
+								<img className="imageSize" src={themeImage} alt="" />
 							</div>
+						</div>
 						<div className="text col-sm-12 col-md-6">
-							<div className="heading">About US</div>
+							<div className="heading">Theme</div>
 							<div className="textMore">
 								A posuere scelerisque gravida facilisi
 								parturient magna urna donec parturient per augue
@@ -27,14 +32,14 @@ export default class About extends Component {
 								facilisis lectus.
 							</div>
 						</div>
-						<div className="art col-sm-12 col-md-6">
-							<div className="image">
-								<img src={aboutImg} alt="" />
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</section>
-		)
-	}
+
+
+        </React.Fragment> );
+    }
 }
+ 
+export default Theme;

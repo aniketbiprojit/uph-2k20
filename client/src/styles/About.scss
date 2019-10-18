@@ -1,3 +1,41 @@
 section.About {
-	// background-color: rgba(213, 61, 52, 1);
+  // background-color: rgba(213, 61, 52, 1);
 }
+
+.imagePhone {
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+  text-align: center;
+  .imageSize {
+    width: 100%;
+  }
+}
+.image {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.inner {
+  width: 100%;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 !important;
+  }
+}
+.row {
+  width: 100%;
+  padding: 2rem 2rem !important;
+}
+.textMore {
+  @media only screen and (max-width: 768px) {
+    font-size: 0.8rem !important;
+  }
+}
+.heading {
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem !important;
+  }
+}
+

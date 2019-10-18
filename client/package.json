@@ -1,9 +1,11 @@
 {
+  "homepage": "https://aniket-chowdhury.github.io/uph-2k20/",
   "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "express": "^4.16.4",
+    "gh-pages": "^2.1.1",
     "mdbreact": "^4.14.0",
     "node-sass": "^4.11.0",
     "query-string": "^6.4.2",

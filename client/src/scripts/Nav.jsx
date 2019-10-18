@@ -4,7 +4,7 @@ export default class Nav extends Component {
 	render() {
 		return (
 			<div className="nav">
-				<div className="inner row">
+				<div className="inner1 row">
 					<div className="left col-6">
 						<div className="text">
 							<p className="inner">

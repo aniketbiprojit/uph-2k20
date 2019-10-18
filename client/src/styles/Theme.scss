@@ -1,0 +1,36 @@
+section.Theme {
+    background-color:rgba(213, 61, 52, 1.0);
+    color: white;
+
+    .art{
+        text-align: center;
+    }
+  .inner {
+    width: 100%;
+    @media only screen and (max-width: 768px) {
+      padding: 0 !important;
+    }
+  }
+  .row {
+    width: 100%;
+    padding: 2rem 2rem !important;
+  }
+  .textMore {
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem !important;
+    }
+  }
+  .heading {
+    @media only screen and (max-width: 768px) {
+      font-size: 3rem !important;
+    }   
+  }
+  
+}
+.imageTheme{
+    .imageSize{
+        @media only screen and (max-width: 768px) {
+                width:70%;
+          }
+    }
+}
