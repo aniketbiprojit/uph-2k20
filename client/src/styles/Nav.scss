@@ -4,9 +4,15 @@
 	padding: 0 10rem;
 	.inner {
 		width: 100%;
+		@media only screen and (max-width:767px) {
+			text-align: center;
+	}
 		.left {
+			
 			.text {
-                // float: left;
+				// float: left;
+				
+				
                 .inner {
                     font-size: 1.25rem;
 					font-weight: 900;
@@ -18,7 +24,6 @@
 		}
 		.right {
 			@media only screen and (max-width:768px) {
-
 				display :none;
 			}
             nav{

@@ -11,6 +11,10 @@ section.Upper {
 		margin: 0;
 		padding: 0 5rem;
 		bottom: 8rem;
+		@media only screen and (max-width:768px) {
+			padding:0;
+			bottom:0;
+		}
 		.scroll {
 			float: right;
 			.inner {
@@ -23,6 +27,7 @@ section.Upper {
 			}
 		}
 		.dates {
+			
 			.light {
 				// float:right;
 				text-align: right;
