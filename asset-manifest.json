@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uph-2k20/static/css/main.42a8b658.chunk.css",
+    "main.css": "/uph-2k20/static/css/main.4d7292ce.chunk.css",
     "main.js": "/uph-2k20/static/js/main.d5c1820e.chunk.js",
     "main.js.map": "/uph-2k20/static/js/main.d5c1820e.chunk.js.map",
     "runtime~main.js": "/uph-2k20/static/js/runtime~main.f9851428.js",
@@ -9,10 +9,10 @@
     "static/js/2.d4845292.chunk.js": "/uph-2k20/static/js/2.d4845292.chunk.js",
     "static/js/2.d4845292.chunk.js.map": "/uph-2k20/static/js/2.d4845292.chunk.js.map",
     "index.html": "/uph-2k20/index.html",
-    "precache-manifest.b0d8dd5534d50d9ea978b2e95502493f.js": "/uph-2k20/precache-manifest.b0d8dd5534d50d9ea978b2e95502493f.js",
+    "precache-manifest.4105f6030b39c17fc7430f733eb5f636.js": "/uph-2k20/precache-manifest.4105f6030b39c17fc7430f733eb5f636.js",
     "service-worker.js": "/uph-2k20/service-worker.js",
     "static/css/2.2b253163.chunk.css.map": "/uph-2k20/static/css/2.2b253163.chunk.css.map",
-    "static/css/main.42a8b658.chunk.css.map": "/uph-2k20/static/css/main.42a8b658.chunk.css.map",
+    "static/css/main.4d7292ce.chunk.css.map": "/uph-2k20/static/css/main.4d7292ce.chunk.css.map",
     "static/media/mdb.css": "/uph-2k20/static/media/arrow_right.8ef6a08c.svg",
     "static/media/Theme.png": "/uph-2k20/static/media/Theme.10adeda5.png",
     "static/media/about.png": "/uph-2k20/static/media/about.e19f20d8.png"
