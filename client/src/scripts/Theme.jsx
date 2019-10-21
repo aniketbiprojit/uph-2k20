@@ -1,45 +1,45 @@
-import React, { Component } from 'react';
-import themeImage from '../assets/Theme.png';
+import React, { Component } from "react";
+import themeImage from "../assets/Theme.png";
 import "../styles/Theme.scss";
 class Theme extends Component {
-    state = {  }
-    render() { 
-        return ( 
-        <React.Fragment>
-            	<section className="Common Theme">
-				<div className="inner">
-					<div className="content row">
-					<div className="art col-sm-12 col-md-6">
-							<div className="imageTheme">
-								<img className="imageSize" src={themeImage} alt="" />
-							</div>
-						</div>
-						<div className="text col-sm-12 col-md-6">
-							<div className="heading">Theme</div>
-							<div className="textMore">
-								A posuere scelerisque gravida facilisi
-								parturient magna urna donec parturient per augue
-								a amet quam nullam a ad a. Parturient velit
-								imperdiet in suspendisse eget a parturient
-								adipiscing penatibus convallis himenaeos felis
-								torquent facilisi elementum a penatibus suscipit
-								aliquam.
-								<br />
-								<br />
-								Porta at at suspendisse dolor fames ullamcorper
-								cum id per suspendisse a dignissim eu dapibus
-								platea turpis augue mi proin lorem morbi sapien
-								facilisis lectus.
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-
-
-        </React.Fragment> );
-    }
+  state = {};
+  render() {
+    return (
+      <React.Fragment>
+        <section className="Common Theme">
+          <div className="inner">
+            <div className="content row">
+              <div className="art col-sm-12 col-md-6">
+                <div className="imageTheme">
+                  <img className="imageSize" src={themeImage} alt="" />
+                </div>
+              </div>
+              <div className="text col-sm-12 col-md-6">
+                <div className="heading">Theme</div>
+                <div className="textMore">
+                  An amalgamation of dream and reality. Inspired by a movement
+                  epitomized by Salvadore Dalí, where pieces were created in a
+                  dream-like fashion to show the inner workings of the
+                  unconscious mind. A projection of the superior qualities of
+                  the liberated, irrational unconscious mind. A wave of art that
+                  envisioned dreamlike pieces, like windows into a strange world
+                  beyond waking life.
+                  <br />
+                  <br />A psychic automatism in its pure state, by which one
+                  proposes to express the actual functioning of thought…in the
+                  absence of any control exercised by reason, exempt from any
+                  aesthetic or moral concern.
+				  <br/><br/>
+				   Presenting to you the theme of
+                  Uphoria 2019 – ‘Surrealism’
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </React.Fragment>
+    );
+  }
 }
- 
+
 export default Theme;
