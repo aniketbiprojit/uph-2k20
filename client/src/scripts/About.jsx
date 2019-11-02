@@ -25,7 +25,7 @@ export default class About extends Component {
             </div>
             <div className="art col-sm-12 col-md-6">
               <div className="image">
-                <img src={aboutImg} alt="" />
+                <img className = "imageSizePC" src={aboutImg} alt="" />
               </div>
             </div>
           </div>

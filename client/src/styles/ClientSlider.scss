@@ -1,0 +1,38 @@
+.title-h {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  @media only  screen and  (max-width:768px) {
+margin-bottom:10px;
+    
+  }
+  .TitleClient {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}
+.carouselCard {
+  height: 250px;
+  text-align: center;
+//   background-image: src("https://www.google.com/imgres?imgurl=https%3A%2F%2Fbrandmark.io%2Flogo-rank%2Frandom%2Fbeats.png&imgrefurl=https%3A%2F%2Fbrandmark.io%2Flogo-rank%2F&docid=23YZdTQCMGXHZM&tbnid=6PQDLj1mhIxTMM%3A&vet=10ahUKEwjD0eycv5zlAhUp7nMBHYQdAJsQMwidASgVMBU..i&w=800&h=800&bih=954&biw=1920&q=logo&ved=0ahUKEwjD0eycv5zlAhUp7nMBHYQdAJsQMwidASgVMBU&iact=mrc&uact=8");
+}
+.image_client{
+    height: 200px;
+    width:270px;
+
+} 
+.onPC{
+  @media only  screen and  (max-width:767px) {
+    display: none;
+    visibility: hidden;
+    
+  }
+}
+.onPhone{
+  @media only  screen and  (min-width:767px) {
+    display: none;
+    visibility: hidden;
+    
+  }
+
+}

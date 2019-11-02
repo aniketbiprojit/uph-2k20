@@ -5,14 +5,25 @@ section.About {
 .imagePhone {
   @media only screen and (min-width: 768px) {
     display: none;
-  }
+  } 
   text-align: center;
   .imageSize {
     width: 100%;
   }
 }
 .image {
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 769px) and (max-width: 1025px) {
+    .imageSizePC {
+      width: 110%;
+      margin-top: 3rem;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 769px) {
+    .imageSizePC {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
     display: none;
   }
 }
@@ -32,10 +43,12 @@ section.About {
   @media only screen and (max-width: 768px) {
     font-size: 0.8rem !important;
   }
+  @media only screen and (max-width: 1025px) and (min-width: 769px) {
+    font-size: 1rem !important;
+  }
 }
 .heading {
   @media only screen and (max-width: 768px) {
     font-size: 3rem !important;
   }
 }
-

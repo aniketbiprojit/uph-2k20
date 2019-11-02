@@ -1,0 +1,13 @@
+.outerNew {
+  height: 100vh;
+  background-color: blue;
+//   text-align: center;    
+  .text_new {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}
