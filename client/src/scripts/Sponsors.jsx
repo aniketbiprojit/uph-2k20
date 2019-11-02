@@ -13,7 +13,7 @@ class Sponsors extends Component {
             <span className="heading">Sponsors</span>
           </div>
           <div className="onPhone">
-          <ClientSlider />
+          <ClientSlider />  
         </div>
           <br />
           <div className="onPC">

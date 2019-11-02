@@ -11,7 +11,9 @@
     "query-string": "^6.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-items-carousel": "^2.8.0",
     "react-scripts": "^3.0.1",
+    "styled-components": "^4.4.1",
     "three": "^0.105.2",
     "three-orbitcontrols": "^2.102.1"
   },

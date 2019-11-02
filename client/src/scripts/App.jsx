@@ -3,7 +3,7 @@ import Upper from "./Upper";
 import About from "./About";
 import Theme from "./Theme";
 import Sponsors from "./Sponsors";
-import Artists from "./Artists";
+import Artists1 from "./Artists1";
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <Theme />
 
         <Sponsors />
-		<Artists />
+		<Artists1 />
       </React.Fragment>
     );
   }
