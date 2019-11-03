@@ -1,23 +1,21 @@
 .Artists1 {
-//   height: 100vh;
-// background-color: red;
+  //   height: 100vh;
+  // background-color: red;
   padding: 0 3rem;
   .heading {
-    
-
-    font-weight: 700;
-					font-style: italic;
-					font-size: 4rem;
-					text-transform: uppercase;
-					outline: none;
-					text-decoration: none;
-					position: relative;
-					// font-size: 8em;
-					line-height: 1;
-					// color:
-                    //#9e9ba4;
-                    cursor: pointer;
-					display: inline-block;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    // font-size: 8em;
+    line-height: 1;
+    // color:
+    //#9e9ba4;
+    cursor: pointer;
+    display: inline-block;
   }
   .Artists1_Grid {
     padding: 3rem 3rem;
@@ -64,25 +62,20 @@
     }
   }
 }
-.onPhone{
-    @media only screen and (min-width: 1024px) {
-       visibility: hidden;
-       display: none;
-      }
+.onPhone {
+  @media only screen and (min-width: 1024px) {
+    visibility: hidden;
+    display: none;
+  }
 }
-.onPc{
-    @media only screen and (max-width: 1024px) {
-        visibility: hidden;
-        display: none;
-       }
+.onPc {
+  @media only screen and (max-width: 1024px) {
+    visibility: hidden;
+    display: none;
+  }
 }
-
-
-
-
 
 .heading {
-  
   font-weight: 700;
   font-style: italic;
   font-size: 4rem;
@@ -93,8 +86,8 @@
   // font-size: 8em;
   line-height: 1;
   // color:
-            //#9e9ba4;
-            cursor: pointer;
+  //#9e9ba4;
+  cursor: pointer;
   display: inline-block;
 }
 .link--kukuri {
@@ -114,7 +107,7 @@
 }
 
 .link--kukuri::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 16px;
   width: 100%;
