@@ -55,3 +55,17 @@ section.Upper {
 	}
 	
 }
+.dabbaUpper1{
+	position: absolute;
+	top:50%;
+	// transform: translateY(-125%);
+	// left:50%;
+	// transform: translateX(-50%);
+	// overflow:hidden;
+	transform: translate(-50%,-125%);	
+	.imageUpper1{
+		width:200%;
+overflow: hidden;
+	}
+	
+}

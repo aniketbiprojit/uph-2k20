@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import Nav from './Nav'
 import upper from "../assets/uph.png"
+import upper1 from "../assets/uph1.png"
+import upper3 from "../assets/uph-3.png"
+import upper4 from "../assets/uph-4.png"
+
+
 export default class Upper extends Component {
 	render() {
 		return (
@@ -9,8 +14,12 @@ export default class Upper extends Component {
 				<div className="dabba">
 				
 					<div className="inner row">
-						<div className="dabbaUpper">
+						<div className="dabbaUpper onPc">
 						<img className="imageUpper" src={upper} alt=""/>
+
+						</div>
+						<div className="dabbaUpper1 onPhone">
+						<img className="imageUpper1" src={upper4} alt=""/>
 
 						</div>
 						<div className="scroll col-6">
