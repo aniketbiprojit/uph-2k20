@@ -11,7 +11,7 @@ class Artists1 extends Component {
       <React.Fragment>
         {/* artist 1 */}
         <div className="Artists1 onPc">
-          <span className="heading">Artists</span>
+          <span className="heading link--kukuri">Artists</span>
           <div className="row  Artists1_Grid">
             <div className="col-sm-12 col-md-6">
               <div className="Artists1_text">

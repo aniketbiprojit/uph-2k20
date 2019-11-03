@@ -10,7 +10,7 @@ class Sponsors extends Component {
         <div className="outer_Sponsors ">
         
           <div className="inner">
-            <span className="heading">Sponsors</span>
+            <span className="heading link--kukuri ">Sponsors</span>
           </div>
           <div className="onPhone">
           <ClientSlider />  
