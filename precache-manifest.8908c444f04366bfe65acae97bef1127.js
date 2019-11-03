@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dc9756503fadf0fd25b215b4e258987",
+    "revision": "87cabd1ca61eb97927e5db88c609cd70",
     "url": "/uph-2k20/index.html"
   },
   {
-    "revision": "10cbc5799cffdd7e8ff3",
+    "revision": "9f2bb2d2c3e6c8fcae2b",
     "url": "/uph-2k20/static/css/2.2b253163.chunk.css"
   },
   {
-    "revision": "2e1a4a4689f9d1c71a8a",
-    "url": "/uph-2k20/static/css/main.a75a9776.chunk.css"
+    "revision": "4768ffdd440500f37b58",
+    "url": "/uph-2k20/static/css/main.3178a21f.chunk.css"
   },
   {
-    "revision": "10cbc5799cffdd7e8ff3",
-    "url": "/uph-2k20/static/js/2.7a5a6230.chunk.js"
+    "revision": "9f2bb2d2c3e6c8fcae2b",
+    "url": "/uph-2k20/static/js/2.f006d350.chunk.js"
   },
   {
-    "revision": "2e1a4a4689f9d1c71a8a",
-    "url": "/uph-2k20/static/js/main.1a566b43.chunk.js"
+    "revision": "4768ffdd440500f37b58",
+    "url": "/uph-2k20/static/js/main.431c8b98.chunk.js"
   },
   {
     "revision": "4dd1fa70d6d5444e8647",
@@ -126,5 +126,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/uph-2k20/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "e06777d099128c21421349a34d0ed157",
+    "url": "/uph-2k20/static/media/uph.e06777d0.png"
   }
 ]);
