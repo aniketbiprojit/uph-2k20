@@ -44,3 +44,14 @@ section.Upper {
 		}
 	}
 }
+
+.dabbaUpper{
+	position: absolute;
+	top:50%;
+	transform: translateY(-75%);
+	overflow:hidden;
+	.imageUpper{
+		width:100%;
+	}
+	
+}

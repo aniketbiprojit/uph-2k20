@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
 import Nav from './Nav'
-
+import upper from "../assets/uph.png"
 export default class Upper extends Component {
 	render() {
 		return (
 			<section className="main Upper">
 				<Nav />
 				<div className="dabba">
+				
 					<div className="inner row">
+						<div className="dabbaUpper">
+						<img className="imageUpper" src={upper} alt=""/>
+
+						</div>
 						<div className="scroll col-6">
 							<div className="inner">
 								<p className="text">

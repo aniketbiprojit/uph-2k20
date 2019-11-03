@@ -127,7 +127,7 @@ class Artists1 extends Component {
               </div>
             </div>
             <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={artistImage} className="imageArtist1" alt="" />
+              <img src={artistImage} className="imageArtist" alt="" />
             </div>
           </div>
         </div>
