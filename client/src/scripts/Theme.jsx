@@ -15,7 +15,7 @@ class Theme extends Component {
                 </div>
               </div>
               <div className="text col-sm-12 col-md-6">
-                <div className="heading">Theme</div>
+                <div className="heading link--kukuri">Theme</div>
                 <div className="textMore">
                   An amalgamation of dream and reality. Inspired by a movement
                   epitomized by Salvadore Dalí, where pieces were created in a

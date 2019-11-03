@@ -1,53 +1,61 @@
 section.Theme {
-  background-color: rgba(213, 61, 52, 1);
-  color: white;
+	background-color: rgba(213, 61, 52, 1);
+	color: white;
 
-  .art {
-    text-align: center;
+	.art {
+		text-align: center;
+	}
+	.inner {
+		width: 100%;
+		@media only screen and (max-width: 768px) {
+			padding: 0 !important;
+		}
+	}
+	.row {
+		width: 100%;
+		padding: 2rem 2rem !important;
+	}
+	.textMore {
+		@media only screen and (max-width: 768px) {
+			font-size: 0.8rem !important;
+		}
+		@media only screen and (max-width: 1025px) and (min-width: 769px) {
+			font-size: 0.9rem !important;
+		}
   }
-  .inner {
-    width: 100%;
-    @media only screen and (max-width: 768px) {
-      padding: 0 !important;
-    }
+  
+  .link--kukuri::after {
+    background-color:  rgba(213, 61, 52, 1) !important;
+
+    // background-color: red !important;
   }
-  .row {
-    width: 100%;
-    padding: 2rem 2rem !important;
-  }
-  .textMore {
-    @media only screen and (max-width: 768px) {
-      font-size: 0.8rem !important;
-    }
-    @media only screen and (max-width: 1025px) and (min-width: 769px) {
-      font-size: 0.9rem !important;
-    }
-  }
-  .heading {
-    @media only screen and (max-width: 768px) {
-      font-size: 3rem !important;
-    }
-  }
+	.heading {
+    color: white !important;
+
+		@media only screen and (max-width: 768px) {
+			font-size: 3rem !important;
+		}
+	}
 }
 .imageTheme {
-  .imageSize {
-    @media only screen and (min-width:1025px) {
-      width:40%;
-      margin-top:6rem;
-      
-    }
-    @media only screen and (max-width: 1025px) and (min-width: 769px) {
-      margin-top: 1rem;
-      width: 70%;
-
-    }
-    @media only screen and (min-width: 767px) and (max-width: 769px) {
-      width: 70%;
-      margin-top: 3rem;
-    }
-    @media only screen and (max-width: 768px) {
-      width: 70%;
-      margin-top: 3rem;
-    }
-  }
+	.imageSize {
+		@media only screen and (min-width: 1025px) {
+			width: 40%;
+			margin-top: 6rem;
+		}
+		@media only screen and (max-width: 1025px) and (min-width: 769px) {
+			margin-top: 1rem;
+			width: 70%;
+		}
+		@media only screen and (min-width: 767px) and (max-width: 769px) {
+			width: 70%;
+			margin-top: 3rem;
+		}
+		@media only screen and (max-width: 768px) {
+			width: 70%;
+			margin-top: 3rem;
+		}
+	}
 }
+
+

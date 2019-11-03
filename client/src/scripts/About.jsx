@@ -10,7 +10,7 @@ export default class About extends Component {
               <img className="imageSize" src={aboutImg} alt="" />
             </div>
             <div className="text col-sm-12 col-md-6">
-              <div className="heading">About US</div>
+              <div className="heading link--kukuri">About US</div>
               <div className="textMore">
                 Uphoria – inspired by the ‘euphoric’ feeling experienced when
                 attending, is an annual festival conducted in Bennett
