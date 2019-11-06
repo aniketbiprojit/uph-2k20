@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/uph-2k20/static/css/main.3178a21f.chunk.css",
-    "main.js": "/uph-2k20/static/js/main.431c8b98.chunk.js",
-    "main.js.map": "/uph-2k20/static/js/main.431c8b98.chunk.js.map",
+    "main.css": "/uph-2k20/static/css/main.90f00641.chunk.css",
+    "main.js": "/uph-2k20/static/js/main.fc188315.chunk.js",
+    "main.js.map": "/uph-2k20/static/js/main.fc188315.chunk.js.map",
     "runtime~main.js": "/uph-2k20/static/js/runtime~main.f9851428.js",
     "runtime~main.js.map": "/uph-2k20/static/js/runtime~main.f9851428.js.map",
     "static/css/2.2b253163.chunk.css": "/uph-2k20/static/css/2.2b253163.chunk.css",
-    "static/js/2.f006d350.chunk.js": "/uph-2k20/static/js/2.f006d350.chunk.js",
-    "static/js/2.f006d350.chunk.js.map": "/uph-2k20/static/js/2.f006d350.chunk.js.map",
+    "static/js/2.26d03e8d.chunk.js": "/uph-2k20/static/js/2.26d03e8d.chunk.js",
+    "static/js/2.26d03e8d.chunk.js.map": "/uph-2k20/static/js/2.26d03e8d.chunk.js.map",
     "index.html": "/uph-2k20/index.html",
-    "precache-manifest.8908c444f04366bfe65acae97bef1127.js": "/uph-2k20/precache-manifest.8908c444f04366bfe65acae97bef1127.js",
+    "precache-manifest.e7492b5deeff9751c92eca24c96ab165.js": "/uph-2k20/precache-manifest.e7492b5deeff9751c92eca24c96ab165.js",
     "service-worker.js": "/uph-2k20/service-worker.js",
     "static/css/2.2b253163.chunk.css.map": "/uph-2k20/static/css/2.2b253163.chunk.css.map",
-    "static/css/main.3178a21f.chunk.css.map": "/uph-2k20/static/css/main.3178a21f.chunk.css.map",
+    "static/css/main.90f00641.chunk.css.map": "/uph-2k20/static/css/main.90f00641.chunk.css.map",
     "static/media/2.png": "/uph-2k20/static/media/2.2775203c.png",
     "static/media/3.png": "/uph-2k20/static/media/3.a45544db.png",
     "static/media/mdb.css": "/uph-2k20/static/media/arrow_right.8ef6a08c.svg",
     "static/media/Theme.png": "/uph-2k20/static/media/Theme.10adeda5.png",
     "static/media/about.png": "/uph-2k20/static/media/about.e19f20d8.png",
-    "static/media/uph.png": "/uph-2k20/static/media/uph.e06777d0.png"
+    "static/media/uph-3.png": "/uph-2k20/static/media/uph-3.b72674cf.png",
+    "static/media/uph-4.png": "/uph-2k20/static/media/uph-4.40e85d53.png",
+    "static/media/uph.png": "/uph-2k20/static/media/uph.e06777d0.png",
+    "static/media/uph1.png": "/uph-2k20/static/media/uph1.86a155e2.png"
   }
 }
