@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2a00a6ba0ac8cf98bbd5a2aa0300c9f",
+    "revision": "d2f6c20fcf3af4892e06ec82f556bf6e",
     "url": "/uph-2k20/index.html"
   },
   {
-    "revision": "175e6532024f6469c61c",
+    "revision": "513372033f734503ce7a",
     "url": "/uph-2k20/static/css/2.2b253163.chunk.css"
   },
   {
-    "revision": "7f03cf4f900b4506b8b7",
-    "url": "/uph-2k20/static/css/main.90f00641.chunk.css"
+    "revision": "63df01032432cb81c19c",
+    "url": "/uph-2k20/static/css/main.ed8b900b.chunk.css"
   },
   {
-    "revision": "175e6532024f6469c61c",
-    "url": "/uph-2k20/static/js/2.26d03e8d.chunk.js"
+    "revision": "513372033f734503ce7a",
+    "url": "/uph-2k20/static/js/2.4e6c8717.chunk.js"
   },
   {
-    "revision": "7f03cf4f900b4506b8b7",
-    "url": "/uph-2k20/static/js/main.fc188315.chunk.js"
+    "revision": "63df01032432cb81c19c",
+    "url": "/uph-2k20/static/js/main.70c81642.chunk.js"
   },
   {
     "revision": "4dd1fa70d6d5444e8647",
     "url": "/uph-2k20/static/js/runtime~main.f9851428.js"
-  },
-  {
-    "revision": "2775203cb1434d640e2f4d6ecf4111c7",
-    "url": "/uph-2k20/static/media/2.2775203c.png"
-  },
-  {
-    "revision": "a45544dbd6563a75634d511d3e90e333",
-    "url": "/uph-2k20/static/media/3.a45544db.png"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
@@ -128,19 +120,59 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uph-2k20/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "b72674cff9dd94941d7cb79dc27df5d1",
-    "url": "/uph-2k20/static/media/uph-3.b72674cf.png"
+    "revision": "0beec93c0209cde3e115cf7cbf8b19d1",
+    "url": "/uph-2k20/static/media/bassi.0beec93c.png"
   },
   {
-    "revision": "40e85d53e4466997598bb256dcf3e72f",
-    "url": "/uph-2k20/static/media/uph-4.40e85d53.png"
+    "revision": "23af271323053ee832c9a48ccfe46295",
+    "url": "/uph-2k20/static/media/ics.23af2713.png"
+  },
+  {
+    "revision": "bba37409d6999f760a17945071fc4af7",
+    "url": "/uph-2k20/static/media/indus.bba37409.png"
+  },
+  {
+    "revision": "0c8f1aacae621cc3a101dcd264614ea5",
+    "url": "/uph-2k20/static/media/jio.0c8f1aac.png"
+  },
+  {
+    "revision": "a36c6ade64df076ec8e566873fcda769",
+    "url": "/uph-2k20/static/media/monster.a36c6ade.png"
+  },
+  {
+    "revision": "f37269573203280581e5bcbe8e32d48f",
+    "url": "/uph-2k20/static/media/nike.f3726957.png"
+  },
+  {
+    "revision": "b7ed09fc33112e9c170676b79252e972",
+    "url": "/uph-2k20/static/media/reverb.b7ed09fc.png"
+  },
+  {
+    "revision": "0e6e02bae761ffad3cd965a60a5124ab",
+    "url": "/uph-2k20/static/media/ritviz.0e6e02ba.png"
+  },
+  {
+    "revision": "3a0f3ec02b5ca9afc43c22d26d7341e5",
+    "url": "/uph-2k20/static/media/rolls.3a0f3ec0.png"
+  },
+  {
+    "revision": "4885050025444eb91d4875d4312b8b40",
+    "url": "/uph-2k20/static/media/toi.48850500.png"
+  },
+  {
+    "revision": "2ed9d1e8c77659fc205602e81be499d7",
+    "url": "/uph-2k20/static/media/uph-4.2ed9d1e8.png"
   },
   {
     "revision": "e06777d099128c21421349a34d0ed157",
     "url": "/uph-2k20/static/media/uph.e06777d0.png"
   },
   {
-    "revision": "86a155e20f424e90ed5bcda27e7c51d4",
-    "url": "/uph-2k20/static/media/uph1.86a155e2.png"
+    "revision": "89065fe3a26ecd7e176e7a256ffceac3",
+    "url": "/uph-2k20/static/media/va.89065fe3.png"
+  },
+  {
+    "revision": "af823726c196c0a0183b476fd0f78668",
+    "url": "/uph-2k20/static/media/yellow-diaries.af823726.png"
   }
 ]);
