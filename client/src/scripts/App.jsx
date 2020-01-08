@@ -4,6 +4,7 @@ import About from "./About";
 import Theme from "./Theme";
 import Sponsors from "./Sponsors";
 import Artists1 from "./Artists1";
+import Gallery from "./Gallery";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Theme />
         <Sponsors />
 		<Artists1 />
+    <Gallery />
       </React.Fragment>
     );
   }

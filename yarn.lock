@@ -311,6 +311,11 @@ raf@^3.1.0:
   dependencies:
     performance-now "^2.1.0"
 
+react-image-masonry@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-image-masonry/-/react-image-masonry-0.4.0.tgz#2050fa8320aee9aab072322b2c013d938240a31f"
+  integrity sha512-h/zoxZ4V1/p/5I92neqpzJPrRlDW91utALXEsJ+3s060De2EtP4J+0q8b+L3/XPUgjjFgBe93ug/o2JuWdnZNQ==
+
 react-is@^16.6.0, react-is@^16.8.1:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
