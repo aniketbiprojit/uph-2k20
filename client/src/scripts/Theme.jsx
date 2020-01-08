@@ -21,9 +21,7 @@ class Theme extends Component {
                   epitomized by Salvadore Dalí, where pieces were created in a
                   dream-like fashion to show the inner workings of the
                   unconscious mind. A projection of the superior qualities of
-                  the liberated, irrational unconscious mind. A wave of art that
-                  envisioned dreamlike pieces, like windows into a strange world
-                  beyond waking life.
+                  the liberated, irrational unconscious mind. 
                   <br />
                   <br />A psychic automatism in its pure state, by which one
                   proposes to express the actual functioning of thought…in the

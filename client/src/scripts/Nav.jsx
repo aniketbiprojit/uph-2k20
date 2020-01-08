@@ -10,7 +10,7 @@ export default class Nav extends Component {
 							<p className="inner">
 								UPHORIA
 								<br />
-								2k20
+								2020
 							</p>
 						</div>
 					</div>

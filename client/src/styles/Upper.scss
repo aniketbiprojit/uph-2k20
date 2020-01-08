@@ -1,71 +1,72 @@
 section.Upper {
-	width: 100%;
-	padding: 2rem 0 ;
-	@media only screen and (max-width:768px) {
-		padding:1rem 0;
-	}
-	height: 100vh;
-	.dabba {
-		position: absolute;
-		width: 100%;
-		margin: 0;
-		padding: 0 5rem;
-		bottom: 8rem;
-		@media only screen and (max-width:768px) {
-			padding:0;
-			bottom:0;
-		}
-		.scroll {
-			float: right;
-			.inner {
-                .text {
-                    margin:0 auto;	
-                    width: fit-content;
-					font-weight: 600;
-					text-align: right;
-				}
-			}
-		}
-		.dates {
-			
-			.light {
-				// float:right;
-				text-align: right;
-				// width:fit-content;
-			}
-			.heavy {
-				line-height: 1;
-				// float:right;
-				// width:fit-content;
-				text-align: right;
-				font-weight: 900;
-				font-size: 3rem;
-			}
-		}
-	}
+  overflow: hidden !important;
+  width: 100% !important;
+
+  padding: 2rem 0;
+  @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
+  }
+  height: 100vh;
+  .dabba {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    // padding: 0 5rem;
+    bottom: 8rem;
+    @media only screen and (max-width: 768px) {
+      padding: 0;
+      bottom: 0;
+    }
+    .scroll {
+      float: right;
+      .inner {
+        .text {
+          margin: 0 auto;
+          width: fit-content;
+          font-weight: 600;
+          text-align: right;
+        }
+      }
+    }
+    .dates {
+      transform: translateY(-20%);
+      margin-right:0;
+
+      .light {
+        // float:right;
+        text-align: right;
+        // width:fit-content;
+      }
+      .heavy {
+        line-height: 1;
+        // float:right;
+        // width:fit-content;
+        text-align: right;
+        font-weight: 900;
+        font-size: 3rem;
+      }
+    }
+  }
 }
 
-.dabbaUpper{
-	position: absolute;
-	top:50%;
-	transform: translateY(-75%);
-	overflow:hidden;
-	.imageUpper{
-		width:100%;
-	}
-	
+.dabbaUpper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  overflow: hidden;
+  .imageUpper {
+    width: 100%;
+  }
 }
-.dabbaUpper1{
-	position: absolute;
-	top:50%;
-	// transform: translateY(-125%);
-	// left:50%;
-	// transform: translateX(-50%);
-	// overflow:hidden;
-	transform: translate(-50%,-125%);	
-	.imageUpper1{
-		width:200%;
-overflow: hidden;
-	}
-	
+.dabbaUpper1 {
+  position: absolute;
+  top: 50%;
+  // transform: translateY(-125%);
+  // left:50%;
+  // transform: translateX(-50%);
+  transform: translate(-30%, -125%);
+  width: 200vw;
+  .imageUpper1 {
+    width: 50%;
+  }
 }
