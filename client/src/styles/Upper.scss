@@ -22,15 +22,22 @@ section.Upper {
       .inner {
         .text {
           margin: 0 auto;
+          margin-top: 55px;
           width: fit-content;
           font-weight: 600;
           text-align: right;
+          font-size: 1.5rem;
+          line-height: 1;
+        }
+        @media only screen and (max-width: 768px) {
+          font-size: 1rem;
+          // margin-top: -60px;
         }
       }
     }
     .dates {
       transform: translateY(-20%);
-      margin-right:0;
+      margin-right: 0;
 
       .light {
         // float:right;
@@ -52,7 +59,7 @@ section.Upper {
 .dabbaUpper {
   position: absolute;
   top: 50%;
-  transform: translateY(-90%);
+  transform: translateY(-70%);
   overflow: hidden;
   .imageUpper {
     width: 100%;
@@ -60,13 +67,14 @@ section.Upper {
 }
 .dabbaUpper1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   // transform: translateY(-125%);
-  // left:50%;
+  left: 50%;
   // transform: translateX(-50%);
-  transform: translate(-30%, -125%);
-  width: 200vw;
+  transform: translate(-50%, -150%);
+  width: 100vw;
+  overflow: hidden;
   .imageUpper1 {
-    width: 50%;
+    width: 100%;
   }
 }

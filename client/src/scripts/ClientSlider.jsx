@@ -1,11 +1,21 @@
-import React from "react";
-import range from "lodash/range";
-import styled from "styled-components";
-import ItemsCarousel from "react-items-carousel";
-import patel from "../assets/patel.png";
+import React from 'react';
+import range from 'lodash/range';
+import styled from 'styled-components';
+import ItemsCarousel from 'react-items-carousel';
+import sterling from '../assets/sterling.png';
+import airtel from '../assets/airtel.png';
+import kia from '../assets/kia.png';
+import indus from '../assets/indus.png';
+import ics from '../assets/ics.png';
+import monster from '../assets/monster.png';
+import reverb from '../assets/reverb.png';
+import rolls from '../assets/rolls.png';
+import toi from '../assets/toi.png';
+import nike from '../assets/nike.png';
+import jio from '../assets/jio.png';
 
 // import { image } from "../assets/2.jpg";
-import "../styles/ClientSlider.scss";
+import '../styles/ClientSlider.scss';
 
 const noOfItems = 12;
 const noOfCards = 3;
@@ -57,8 +67,6 @@ export default class ClientSlider extends React.Component {
   render() {
     return (
       <React.Fragment>
-     
-        
         <Wrapper className="onPhone">
           <ItemsCarousel
             gutter={12}
@@ -71,103 +79,42 @@ export default class ClientSlider extends React.Component {
             outsideChevron
             children={carouselItems}
           >
-             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+            <div className="carouselCard">
+              <img className="image_client" src={sterling} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={airtel} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={kia} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={indus} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={ics} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={monster} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={reverb} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={rolls} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={toi} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={nike} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={jio} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img
-                className="image_client"
-                src={patel}
-                alt=""
-              />              <br />
-
+              <img className="image_client" src={airtel} alt="" /> <br />
             </div>
-           
           </ItemsCarousel>
         </Wrapper>
       </React.Fragment>

@@ -10,9 +10,8 @@ class App extends Component {
     return (
       <React.Fragment>
         <Upper />
-        <About />
+        <About id="About"/>
         <Theme />
-
         <Sponsors />
 		<Artists1 />
       </React.Fragment>

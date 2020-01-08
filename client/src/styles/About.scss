@@ -48,8 +48,11 @@ section.About {
   }
 }
 .heading {
+  margin-bottom: 5rem ;
   @media only screen and (max-width: 768px) {
     font-size: 3rem !important;
+    margin-top: 30px !important;
+    margin-bottom: 0 ;
   }
 }
 

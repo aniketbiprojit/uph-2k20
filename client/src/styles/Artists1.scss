@@ -19,6 +19,8 @@
   }
   .Artists1_Grid {
     padding: 3rem 3rem;
+    scroll-margin-top: 60px;
+
     @media only screen and (max-width: 1024px) {
       padding: 0 !important;
     }
@@ -28,7 +30,6 @@
         @media only screen and (max-width: 1024px) {
           margin-left: 0.5rem;
         }
-
         .text {
           // margin-top:3rem;
           font-weight: 700;
@@ -47,7 +48,7 @@
 
           .textAbout {
             font-weight: 500;
-            font-size: 2rem;
+            font-size: 1.8rem;
             @media only screen and (max-width: 1024px) {
               font-size: 0.8rem;
             }
@@ -56,6 +57,7 @@
       }
     }
     .imageArtistDiv {
+      margin-top: 30px;
       .imageArtist {
         width: 100%;
       }
@@ -107,7 +109,7 @@
 }
 
 .link--kukuri::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 16px;
   width: 100%;
