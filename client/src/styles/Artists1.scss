@@ -3,7 +3,9 @@
   // background-color: red;
   padding: 0 3rem;
   .heading {
-    font-weight: 800;
+    margin-bottom: 0rem !important;
+    margin-top: 2rem !important;
+    font-weight: 900;
     font-style: italic;
     font-size: 4rem;
     text-transform: uppercase;
@@ -12,8 +14,6 @@
     position: relative;
     // font-size: 8em;
     line-height: 1;
-    // color:
-    //#9e9ba4;
     cursor: pointer;
     display: inline-block;
   }

@@ -14,7 +14,7 @@ export default class Nav extends Component {
               </p>
             </div>
           </div>
-          <div className="right  col-6">	
+          <div className="right  col-6">
             <nav className="row">
               <div className="elem col-2"></div>
               <div className="elem col-2">
@@ -27,7 +27,7 @@ export default class Nav extends Component {
                 <p className="text"> Sponsors</p>
               </div>
               <div className="elem col-2">
-                <p className="text"> Archives</p>
+                <p className="text"> Events</p>
               </div>
               <div className="elem col-2">
                 <p className="text"> Register</p>
