@@ -8,11 +8,24 @@ import './css/main.css';
 import ReCAPTCHA from 'react-google-recaptcha';
 import axios from 'axios'
 
+// function handleSubmit(event) {
+//   event.preventDefault();
+//   const data = new FormData(event.target);
+
+//   fetch('url daal chutiye', {
+//     method: 'POST',
+//     body: data
+//   });
+//   console.log(this.state);
+// }
 class Form extends Component {
   constructor() {
-    super()
+    super();
     this.state = {};
-    this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleChange(event) {
+    this.setState(([event.target.name] = event.target.value));
   }
 
   async handleSubmit(e) {
@@ -37,6 +50,7 @@ class Form extends Component {
                     type="text"
                     placeholder="Name"
                     name="name"
+                    onChange={event => this.handleChange(event)}
                   />
                 </div>
                 <div class="input-group">
@@ -45,6 +59,7 @@ class Form extends Component {
                     type="text"
                     placeholder="Institution Name"
                     name="institution"
+                    onChange={event => this.handleChange(event)}
                   />
                 </div>
                 <div class="input-group">
@@ -53,6 +68,7 @@ class Form extends Component {
                     type="number"
                     placeholder="Contact Number"
                     name="contact"
+                    onChange={event => this.handleChange(event)}
                   />
                 </div>
                 <div class="input-group">
@@ -61,6 +77,7 @@ class Form extends Component {
                     type="email"
                     placeholder="Email Address"
                     name="email"
+                    onChange={event => this.handleChange(event)}
                   />
                 </div>
                 <div class="input-group">
@@ -69,6 +86,7 @@ class Form extends Component {
                     type="number"
                     placeholder="Emergency Contact"
                     name="Econtact"
+                    onChange={event => this.handleChange(event)}
                   />
                 </div>
                 <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" />
