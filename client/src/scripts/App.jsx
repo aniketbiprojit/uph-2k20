@@ -6,6 +6,7 @@ import Sponsors from './Sponsors';
 import Artists1 from './Artists1';
 import Gallery from './Gallery';
 import Footer from './Footer';
+import Form from './Form'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Artists1 />
         <Gallery />
         <Footer />
+        <Form></Form>
       </React.Fragment>
     );
   }
