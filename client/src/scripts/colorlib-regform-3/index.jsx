@@ -21,6 +21,7 @@ function handleSubmit(event) {
     method: 'POST',
     body: data
   });
+  console.log(this.state);
 }
 class Form extends Component {
   constructor() {
