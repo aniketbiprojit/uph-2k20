@@ -13,26 +13,26 @@ function onChange(value) {
 function handleChange(event) {
   this.setState(([event.target.name] = event.target.value));
 }
-function handleSubmit(event) {
-  event.preventDefault();
-  const data = new FormData(event.target);
+// function handleSubmit(event) {
+//   event.preventDefault();
+//   const data = new FormData(event.target);
 
-  fetch('url daal chutiye', {
-    method: 'POST',
-    body: data
-  });
-  console.log(this.state);
-}
+//   fetch('url daal chutiye', {
+//     method: 'POST',
+//     body: data
+//   });
+//   console.log(this.state);
+// }
 class Form extends Component {
-  constructor(){
-    super()
+  constructor() {
+    super();
     this.state = {};
-    this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleSubmit(e){
+  handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state)
+    console.log(this.state);
   }
 
   render() {
