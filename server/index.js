@@ -18,15 +18,17 @@ app.post('/register', async (req, res) => {
 
     try {
         const response = req.body['g-recaptcha-response']
-        // const captchaResponse = await captcha('', response)
-        // if (!captchaResponse) {
-        //     console.log(captchaResponse)
-        //     res.sendStatus(404)
-        //     return
-        // }
+        console.log(req.body);
+
+        const captchaResponse = await captcha('', response)
+        if (!captchaResponse) {
+            console.log(captchaResponse)
+            res.sendStatus(404)
+            return
+        }
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         req.body.now = (new Date()).toLocaleString('hi-IN', options)
-        req.body.timeNow = (new Date()).toLocaleString('hi-IN', {hour: "2-digit", minute: "2-digit",second:"2-digit"})
+        req.body.timeNow = (new Date()).toLocaleString('hi-IN', { hour: "2-digit", minute: "2-digit", second: "2-digit" })
         req.body.uphid = "UPH-" + await counter()
 
         const data = {
@@ -55,6 +57,7 @@ app.post('/register', async (req, res) => {
             mail.authorize(JSON.parse(content), data, mail.addToSheet)
 
             // mail.authorize(JSON.parse(content), req.body, mail.sendMail)
+            res.send('okay')
         })
     }
     catch (err) {
