@@ -6,21 +6,20 @@ import './vendor/datepicker/daterangepicker.css';
 import './css/main.css';
 
 import ReCAPTCHA from 'react-google-recaptcha';
-
-function onChange(value) {
-  console.log('Captcha value:', value);
-}
+import axios from 'axios'
 
 class Form extends Component {
-  constructor(){
+  constructor() {
     super()
     this.state = {};
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-  handleSubmit(e){
+  async handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state)
+    const data = await axios.post('http://10.12.143.251:8080/register', { name: "Aniket Chowdhury", email: "anikettipu@gmail.com" })
+    console.log(data);
+
   }
 
   render() {
@@ -72,7 +71,7 @@ class Form extends Component {
                     name="Econtact"
                   />
                 </div>
-                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" onChange={onChange} />
+                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" />
                 <div class="p-t-10">
                   <button class="btn btn--pill btn--green" type="submit">
                     Submit
