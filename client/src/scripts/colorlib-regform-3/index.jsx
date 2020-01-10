@@ -5,7 +5,17 @@ import './vendor/select2/select2.min.css';
 import './vendor/datepicker/daterangepicker.css';
 import './css/main.css';
 class Form extends Component {
-  state = {};
+  constructor(){
+    super()
+    this.state = {};
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+
+  handleSubmit(e){
+    e.preventDefault();
+    console.log(this.state)
+  }
+
   render() {
     return (
       <div class="page-wrapper mainForm bg-white card1 p-t-80 p-b-80 font-poppins">
@@ -14,7 +24,7 @@ class Form extends Component {
             <div class="card-heading"></div>
             <div class="card-body">
               <h2 class="title">Registration Info</h2>
-              <form method="POST">
+              <form method="POST" onSubmit={this.handleSubmit}>
                 <div class="input-group">
                   <input
                     class="input--style-3"
