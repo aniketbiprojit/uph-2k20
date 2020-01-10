@@ -62,7 +62,7 @@ class Form extends Component {
                     name="Econtact"
                   />
                 </div>
-                <ReCAPTCHA sitekey="keydaalchutiye" onChange={onChange} />
+                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" onChange={onChange} />
                 <div class="p-t-10">
                   <button class="btn btn--pill btn--green" type="submit">
                     Submit
