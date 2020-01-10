@@ -16,9 +16,9 @@ app.use(require('cors')())
 
 app.post('/register', async (req, res) => {
 
+    console.log(req.body);
     try {
         const response = req.body['g-recaptcha-response']
-        console.log(req.body);
 
         const captchaResponse = await captcha('', response)
         if (!captchaResponse) {
