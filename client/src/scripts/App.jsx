@@ -6,19 +6,20 @@ import Sponsors from './Sponsors';
 import Artists1 from './Artists1';
 import Gallery from './Gallery';
 import Footer from './Footer';
-import Form from './Form'
+import Form from './colorlib-regform-3/index';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Upper />
+        {/* <Upper />
         <About id="About" />
         <Theme />
         <Sponsors />
         <Artists1 />
         <Gallery />
-        <Footer />
+        <Footer /> */}
+
         <Form></Form>
       </React.Fragment>
     );

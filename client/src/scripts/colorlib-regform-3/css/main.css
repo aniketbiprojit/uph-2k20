@@ -537,10 +537,10 @@ input {
 }
 
 .card-3 .card-heading {
-  background: url('../images/uph-3.png');
+  background: url('../images/Registration_Graphic.jpg');
   background-position: center;
-  background-size: 200%;
-  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   display: table-cell;
   width: 50%;
 }
@@ -573,3 +573,7 @@ input {
   top: 50%;
   transform: translateY(-50%);
 } */
+.mainForm {
+  background-color: black  !important;
+  font-family: montserrat;
+}
