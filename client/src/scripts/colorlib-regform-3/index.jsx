@@ -24,14 +24,15 @@ function handleSubmit(event) {
   console.log(this.state);
 }
 class Form extends Component {
-  constructor() {
-    this.state = {
-      name: ' ',
-      email: ' ',
-      institution: ' ',
-      email: ' ',
-      Econtact: ' '
-    };
+  constructor(){
+    super()
+    this.state = {};
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+
+  handleSubmit(e){
+    e.preventDefault();
+    console.log(this.state)
   }
 
   render() {
@@ -42,7 +43,7 @@ class Form extends Component {
             <div class="card-heading"></div>
             <div class="card-body">
               <h2 class="title">Registration Info</h2>
-              <form method="POST">
+              <form method="POST" onSubmit={this.handleSubmit}>
                 <div class="input-group">
                   <input
                     class="input--style-3"

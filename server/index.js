@@ -17,7 +17,6 @@ app.post('/register', async (req, res) => {
     try {
         const response = req.body['g-recaptcha-response']
         // const captchaResponse = await captcha('', response)
-
         // if (!captchaResponse) {
         //     console.log(captchaResponse)
         //     res.sendStatus(404)
