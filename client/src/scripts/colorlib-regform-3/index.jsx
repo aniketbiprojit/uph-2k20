@@ -4,6 +4,13 @@ import './vendor/font-awesome-4.7/css/font-awesome.min.css';
 import './vendor/select2/select2.min.css';
 import './vendor/datepicker/daterangepicker.css';
 import './css/main.css';
+
+import ReCAPTCHA from 'react-google-recaptcha';
+
+function onChange(value) {
+  console.log('Captcha value:', value);
+}
+
 class Form extends Component {
   constructor(){
     super()
@@ -65,6 +72,7 @@ class Form extends Component {
                     name="Econtact"
                   />
                 </div>
+                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" onChange={onChange} />
                 <div class="p-t-10">
                   <button class="btn btn--pill btn--green" type="submit">
                     Submit
