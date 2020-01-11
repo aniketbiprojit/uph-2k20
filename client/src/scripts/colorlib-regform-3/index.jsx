@@ -24,13 +24,17 @@ class Form extends Component {
     this.state = {};
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+
   handleChange(event) {
-    this.setState(([event.target.name] = event.target.value));
+    console.log(event.target.name)
+    this.setState({ [event.target.name]: event.target.value });
+    console.log(this.state)
   }
 
   async handleSubmit(e) {
     e.preventDefault();
-    const data = await axios.post('http://10.12.143.251:8080/register', { name: "Aniket Chowdhury", email: "anikettipu@gmail.com" })
+    console.log(this.state)
+    const data = await axios.post('http://10.12.143.251:8080/register', this.state)
     console.log(data);
 
   }
@@ -50,6 +54,7 @@ class Form extends Component {
                     type="text"
                     placeholder="Name"
                     name="name"
+                    value={this.state.name}
                     onChange={event => this.handleChange(event)}
                   />
                 </div>
@@ -58,7 +63,8 @@ class Form extends Component {
                     class="input--style-3"
                     type="text"
                     placeholder="Institution Name"
-                    name="institution"
+                    name="institute"
+                    value={this.state.institute}
                     onChange={event => this.handleChange(event)}
                   />
                 </div>
@@ -67,7 +73,8 @@ class Form extends Component {
                     class="input--style-3"
                     type="number"
                     placeholder="Contact Number"
-                    name="contact"
+                    name="mobile"
+                    value={this.state.mobile}
                     onChange={event => this.handleChange(event)}
                   />
                 </div>
@@ -78,6 +85,7 @@ class Form extends Component {
                     placeholder="Email Address"
                     name="email"
                     onChange={event => this.handleChange(event)}
+                    value={this.state.email}
                   />
                 </div>
                 <div class="input-group">
@@ -85,11 +93,13 @@ class Form extends Component {
                     class="input--style-3"
                     type="number"
                     placeholder="Emergency Contact"
-                    name="Econtact"
+                    name="emergency"
+                    vaule={this.state.emergency}
                     onChange={event => this.handleChange(event)}
                   />
                 </div>
-                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" />
+                <ReCAPTCHA sitekey="6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ" value='g-recaptcha-response' onChange={event => this.handleChange(event)}
+                />
                 <div class="p-t-10">
                   <button class="btn btn--pill btn--green" type="submit">
                     Submit
