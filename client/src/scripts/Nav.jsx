@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../styles/Nav.scss';
 export default class Nav extends Component {
   render() {
     return (
@@ -29,8 +29,11 @@ export default class Nav extends Component {
               <div className="elem col-2">
                 <p className="text"> Events</p>
               </div>
-              <div className="elem col-2">
-                <p className="text"> Register</p>
+              <div className="elem col-2 ">
+                <a href="./form" className="register">
+                  {' '}
+                  <p className="text"> Register</p>
+                </a>
               </div>
             </nav>
           </div>

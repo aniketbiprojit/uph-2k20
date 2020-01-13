@@ -6,6 +6,7 @@ import Sponsors from './Sponsors';
 import Artists1 from './Artists1';
 import Gallery from './Gallery';
 import Footer from './Footer';
+
 // import Form from './colorlib-regform-3/index';
 
 class App extends Component {
