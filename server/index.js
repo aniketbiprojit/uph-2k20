@@ -59,7 +59,7 @@ app.post('/register', async (req, res) => {
 				return console.log('Error loading client secret file:', err);
 			mail.authorize(JSON.parse(content), data, mail.addToSheet);
 
-			mail.authorize(JSON.parse(content), req.body, mail.sendMail)
+			mail.authorize(JSON.parse(content), req.body, mail.sendMail);
 			res.send('okay');
 		});
 	} catch (err) {
@@ -68,18 +68,4 @@ app.post('/register', async (req, res) => {
 	}
 });
 
-        fs.readFile(__dirname + '/../credentials.json', (err, content) => {
-            if (err) return console.log('Error loading client secret file:', err)
-            mail.authorize(JSON.parse(content), data, mail.addToSheet)
-
-            mail.authorize(JSON.parse(content), req.body, mail.sendMail)
-            res.json({success:true})
-        })
-    }
-    catch (err) {
-        console.log(err)
-        res.sendStatus(500)
-    }
-})
-
-app.listen(port, () => console.log(`Runnning on port ${port}`))
+app.listen(port, () => console.log(`Runnning on port ${port}`));
