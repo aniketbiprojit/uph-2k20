@@ -13,7 +13,7 @@ const captcha = async (secret, response) => {
 				}
 			}
 		);
-		console.log(response);
+		console.log(data);
 		// return data
 		return data.data.success;
 	} catch (err) {

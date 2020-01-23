@@ -15,13 +15,12 @@ app.use(express.static('static'));
 app.use(require('cors')());
 
 app.post('/register', async (req, res) => {
-	console.log(req.body);
+	// console.log(req.body);
 	try {
 		const response = req.body['g-recaptcha-response'];
 
 		const captchaResponse = await captcha('', response);
 		if (!captchaResponse) {
-			console.log(captchaResponse);
 			res.sendStatus(404);
 			return;
 		}

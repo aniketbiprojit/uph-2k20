@@ -12,6 +12,14 @@
 /* ==========================================================================
    #GRID
    ========================================================================== */
+.cardSubmit {
+	height: 60vh;
+}
+.cardSubmitText {
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+}
 .row {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -539,7 +547,9 @@ input {
 .card-3 .card-heading {
 	background: url('../images/Registration_Graphic.jpg');
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	/* background-clip: content-box; */
 	/* background-repeat: no-repeat; */
 	display: table-cell;
 	width: 50%;

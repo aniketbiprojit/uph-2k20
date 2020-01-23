@@ -23,23 +23,25 @@ class Form extends Component {
 		this.state = {};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
-	changeCaptcha(e){
-		console.log(e)
-		this.setState({'g-recaptcha-response':e})
+	changeCaptcha(e) {
+		this.setState({ 'g-recaptcha-response': e });
 	}
 	handleChange(event) {
-		console.log(event.target.name);
+		// console.log(event.target.name);
 		this.setState({ [event.target.name]: event.target.value });
-		console.log(this.state);
 	}
 	async handleSubmit(e) {
 		e.preventDefault();
-		console.log(this.state);
 		const data = await axios.post(
 			'http://localhost:8080/register',
 			this.state
 		);
-		console.log(data);
+		if (data.status === 200) {
+			const page = document.getElementById('cardk');
+			// page.innerHTML=''
+			console.log('okay');
+		} else {
+		}
 	}
 
 	render() {
@@ -48,7 +50,7 @@ class Form extends Component {
 				<div class='wrapper wrapper--w780'>
 					<div class='card card-3'>
 						<div class='card-heading'></div>
-						<div class='card-body'>
+						{/* <div class='card-body' id='cardk'>
 							<h2 class='title'>Registration Info</h2>
 							<form method='POST' onSubmit={this.handleSubmit}>
 								<div class='input-group'>
@@ -125,11 +127,26 @@ class Form extends Component {
 									</button>
 								</div>
 							</form>
+						</div> */}
+
+						<div className='card-body card-body2' id='cardk'>
+							<div className='cardSubmit'>
+								<div className='cardSubmitText'>
+									<h2>
+										Thanks for Registering with us,
+										<br />
+									</h2>
+									<p>
+										Go to{' '}
+										<a href='main ki link'>HomePage</a>{' '}
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		);
-  }
+	}
 }
 export default Form;
