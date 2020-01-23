@@ -62,7 +62,7 @@ function getEmailContent(data) {
     // console.log(data)
     let message = [];
 
-	message.push('From: "Aniket Chowdhury" <anikettipu@gmail.com>');
+	message.push('From: "Uphoria Bennett University" <uphoria.bu@gmail.com>');
 	message.push(`To: ${data.email}`);
 	message.push('Content-type: text/html;charset=iso-8859-1');
 	message.push('MIME-Version: 1.0');
@@ -93,7 +93,7 @@ function sendMail(auth, data) {
 		},
 		(err, res) => {
 			if (err) {
-				console.log('The API returned an error: ' + err);
+				console.log('The API returned an error at send mail: ' + err);
 				return false;
 			}
 			if (res['status'] === 200) {
@@ -109,7 +109,7 @@ function addToSheet(auth, data) {
 	const sheets = google.sheets({ version: 'v4', auth });
 	sheets.spreadsheets.values.append(data, (err, res) => {
 		if (err) {
-			console.log('The API returned an error: ' + err);
+			console.log('The API returned an error at add to sheets: ' + err);
 			return false;
 		} else if (res['status'] === 200) return true;
 		else return false;

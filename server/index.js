@@ -19,12 +19,12 @@ app.post('/register', async (req, res) => {
 	try {
 		const response = req.body['g-recaptcha-response'];
 
-		// const captchaResponse = await captcha('', response);
-		// if (!captchaResponse) {
-		// 	console.log(captchaResponse);
-		// 	res.sendStatus(404);
-		// 	return;
-		// }
+		const captchaResponse = await captcha('', response);
+		if (!captchaResponse) {
+			console.log(captchaResponse);
+			res.sendStatus(404);
+			return;
+		}
 		const options = { year: 'numeric', month: 'long', day: 'numeric' };
 		req.body.now = new Date().toLocaleString('hi-IN', options);
 		req.body.timeNow = new Date().toLocaleString('hi-IN', {
@@ -35,7 +35,7 @@ app.post('/register', async (req, res) => {
 		req.body.uphid = 'UPH-' + (await counter());
 
 		const data = {
-			spreadsheetId: '1aITl0Z_PMqrgEaEJrma-lVSQzE-4V4pCAHswJm-XgXA',
+			spreadsheetId: '13g_H0ZQWJEVbGLa8JO_brSt5KAF8-Min6qf8fJQjIbY',
 			range: 'Sheet1!A1:H',
 			valueInputOption: 'USER_ENTERED',
 			resource: {
@@ -59,7 +59,7 @@ app.post('/register', async (req, res) => {
 				return console.log('Error loading client secret file:', err);
 			mail.authorize(JSON.parse(content), data, mail.addToSheet);
 
-			mail.authorize(JSON.parse(content), req.body, mail.sendMail);
+			// mail.authorize(JSON.parse(content), req.body, mail.sendMail);
 			res.send('okay');
 		});
 	} catch (err) {

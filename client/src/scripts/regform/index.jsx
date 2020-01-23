@@ -23,6 +23,10 @@ class Form extends Component {
 		this.state = {};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
+	changeCaptcha(e){
+		console.log(e)
+		this.setState({'g-recaptcha-response':e})
+	}
 	handleChange(event) {
 		console.log(event.target.name);
 		this.setState({ [event.target.name]: event.target.value });
@@ -32,7 +36,7 @@ class Form extends Component {
 		e.preventDefault();
 		console.log(this.state);
 		const data = await axios.post(
-			'http://10.12.143.251:8080/register',
+			'http://localhost:8080/register',
 			this.state
 		);
 		console.log(data);
@@ -110,7 +114,7 @@ class Form extends Component {
 								<ReCAPTCHA
 									sitekey='6LeQD84UAAAAADuFNXidqZRUpfxFqPeRZLm9StEZ'
 									value='g-recaptcha-response'
-									onChange={event => this.handleChange(event)}
+									onChange={event => this.changeCaptcha(event)}
 								/>
 								<div class='p-t-10'>
 									<button
