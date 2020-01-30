@@ -13,7 +13,7 @@ async function counter() {
         return data['id']
     }
     catch (err) {
-        console.log(er)
+        console.log(err)
     }
 }
 module.exports.counter = counter
