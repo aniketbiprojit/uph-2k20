@@ -16,7 +16,7 @@ app.use(require('cors')())
 
 app.post('/register', async (req, res) => {
   // res.sendStatus(200)
-  // console.log(req.body);
+  console.log(__d);
   try {
     const response = req.body['g-recaptcha-response']
 
