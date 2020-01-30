@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Nav.scss";
 // import register from 'https://www.uphoria.co.in/form';
-import { ExternalLink } from 'react-external-link';
+// import { ExternalLink } from 'react-external-link';
 export default class Nav extends Component {
   render() {
     return (
