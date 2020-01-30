@@ -12,14 +12,14 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Uphoria 2020</h5>
+            <h5 className="title1 ">Uphoria 2020</h5>
             <p>
               <span className="Bennettname">Bennett University's</span> annual
               cultural fest
             </p>
           </MDBCol>
           <MDBCol md="3">
-            <h5 className="title">Links</h5>
+            <h5 className="title1 ">Links</h5>
             <ul>
               <li className="list-unstyled">
                 <a href="#!">Link 1</a>
@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
           </MDBCol>{' '}
           <MDBCol md="3">
-            <h5 className="title">Links</h5>
+            <h5 className="title1 ">Links</h5>
             <ul>
               <li className="list-unstyled">
                 <a href="#!">Link 1</a>

@@ -18,6 +18,9 @@ export default class Upper extends Component {
             <div className="dabbaUpper1 onPhone">
               <img className="imageUpper1" src={upper4} alt="" />
             </div>
+            </div>
+            <div className="row">
+
             <div className="scroll col-4">
               <div className="inner onPc">
                 <p className="text">

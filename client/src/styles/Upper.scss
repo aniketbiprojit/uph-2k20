@@ -23,7 +23,6 @@ section.Upper {
         .text {
           margin: 0 auto;
           margin-top: 55px;
-          width: fit-content;
           font-weight: 600;
           text-align: right;
           font-size: 1.5rem;
@@ -83,7 +82,7 @@ section.Upper {
   width: 100vw;
   overflow: hidden;
   .imageUpper1 {
-    width: 100%;
+    width: 80%;
   }
 }
 .registerPhone{
