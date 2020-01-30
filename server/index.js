@@ -10,10 +10,11 @@ const app = express.Router()
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use(express.static('static'))
+app.use(express.static('build'))
 
 app.use(require('cors')())
-
+//app.get('/form',(req,res)=>console.log(__dirname))
+app.use('/form',express.static('./form'))
 app.post('/register', async (req, res) => {
   // res.sendStatus(200)
   // console.log(req.body);
