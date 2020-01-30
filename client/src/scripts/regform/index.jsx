@@ -134,7 +134,7 @@ class Form extends Component {
                     <br />
                   </h2>
                   <p>
-                    Go to <a href='main ki link'>HomePage</a>{' '}
+                    Go to <a href='https://uphoria.co.in'>HomePage</a>{' '}
                   </p>
                 </div>
               </div>
