@@ -43,6 +43,10 @@ section.Upper {
         // float:right;
         text-align: right;
         // width:fit-content;
+        @media only screen and (max-width: 768px) {
+
+        font-size:0.8rem;
+        }
       }
       .heavy {
         line-height: 1;
@@ -51,6 +55,10 @@ section.Upper {
         text-align: right;
         font-weight: 900;
         font-size: 3rem;
+        @media only screen and (max-width: 768px) {
+          font-size: 2rem;
+          // margin-top: -60px;
+        }
       }
     }
   }
@@ -77,4 +85,12 @@ section.Upper {
   .imageUpper1 {
     width: 100%;
   }
+}
+.registerPhone{
+  border-radius: 30px;
+  width: fit-content;
+}
+.text1{
+  color:black;
+  font-weight: 600;
 }

@@ -19,10 +19,13 @@ export default class Upper extends Component {
               <img className="imageUpper1" src={upper4} alt="" />
             </div>
             <div className="scroll col-4">
-              <div className="inner">
+              <div className="inner onPc">
                 <p className="text">
                   Scroll down <br /> to know more
                 </p>
+              </div>
+              <div className="inner onPhone">
+                <button className="btn registerPhone "> <a href="https://www.uphoria.co.in/form"><p className="text1">Register</p></a></button>
               </div>
             </div>
             <div className="dates  col-7">
