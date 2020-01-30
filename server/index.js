@@ -5,8 +5,8 @@ const mail = require('./mail')
 const counter = require('./counter').counter
 const captcha = require('./captcha')
 
-const app = express()
-const port = 8080
+const app = express.Router()
+// const port = 8080
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
@@ -67,4 +67,5 @@ app.post('/register', async (req, res) => {
   }
 })
 
-app.listen(port, () => console.log(`Runnning on port ${port}`))
+module.exports = app
+// app.listen(port, () => console.log(`Runnning on port ${port}`))
