@@ -65,13 +65,13 @@
   }
 }
 .onPhone {
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1020px) {
     visibility: hidden;
     display: none;
   }
 }
 .onPc {
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 1020px) {
     visibility: hidden;
     display: none;
   }

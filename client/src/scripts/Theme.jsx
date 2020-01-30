@@ -6,7 +6,7 @@ class Theme extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<section className='Common Theme'>
+				<section className='Common Theme' id="theme">
 					<div className='inner'>
 						<div className='content row'>
 							<div className='art col-sm-12 col-md-6'>

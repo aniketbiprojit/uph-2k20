@@ -19,7 +19,7 @@ class Sponsors extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="outer_Sponsors ">
+        <div className="outer_Sponsors " id= "sponsors">
           <div className="inner">
             <span className="heading link--kukuri  headingSponsors">
               Previous Sponsors
