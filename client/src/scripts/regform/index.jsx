@@ -39,7 +39,7 @@ class Form extends Component {
   }
   async handleSubmit(e) {
     e.preventDefault()
-    const data = await axios.post('http://localhost:8080/register', this.state)
+    const data = await axios.post('https://uphoria.co.in/register', this.state)
     if (data.status === 200) {
       const page = document.getElementById('cardk-1')
       const cardpost = document.getElementById('cardk')
