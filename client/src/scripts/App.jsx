@@ -7,7 +7,7 @@ import Artists1 from './Artists1';
 import Gallery from './Gallery';
 import Footer from './Footer';
 
-// import Form from './colorlib-regform-3/index';
+// import Form from './regform/index';
 
 class App extends Component {
   render() {
