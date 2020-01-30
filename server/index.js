@@ -19,12 +19,12 @@ app.post('/register', async (req, res) => {
 	try {
 		const response = req.body['g-recaptcha-response'];
 
-		// const captchaResponse = await captcha('', response);
-		// if (!captchaResponse) {
-		// 	console.log(captchaResponse);
-		// 	res.sendStatus(404);
-		// 	return;
-		// }
+		const captchaResponse = await captcha('', response);
+		if (!captchaResponse) {
+			console.log(captchaResponse);
+			res.sendStatus(404);
+			return;
+		}
 		const options = { year: 'numeric', month: 'long', day: 'numeric' };
 		req.body.now = new Date().toLocaleString('hi-IN', options);
 		req.body.timeNow = new Date().toLocaleString('hi-IN', {
