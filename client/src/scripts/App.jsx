@@ -13,15 +13,15 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Upper />
+        {/* <Upper />
         <About id="About" />
         <Theme />
         <Sponsors />
         <Artists1 />
         <Gallery />
-        <Footer />
+        <Footer /> */}
 
-        {/* <Form></Form> */}
+        <Form></Form>
       </React.Fragment>
     );
   }
