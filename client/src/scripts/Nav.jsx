@@ -35,7 +35,7 @@ export default class Nav extends Component {
 									className='register'
 								> */}
 								<p className='text'>
-									<a href='https://www.google.com'>
+									<a href='https://www.uphoria.co.in/form'>
 										{' '}
 										Register
 									</a>
