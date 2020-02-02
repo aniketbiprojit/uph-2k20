@@ -127,13 +127,14 @@ class Artists1 extends Component {
                   <br />
                   <div className='textAboutDiv'>
                     <span className='textAbout'>
-                      Lawyer turned entrepreneur turned stand-up comic. What
-                      made him popular amongst the youth? His videos like
-                      cheating and waxing. After breaking the internet, Bassi is
-                      on the road to break hearts across India with his
-                      painfully funny stand up ‘Bas Kar Bassi’. Chalta hai
-                      comedy brings Anubhav Bassi to the biggest event of
-                      Bennett University, ‘Uphoria’ for a hilarious evening.
+                      Aakash Gupta also known as Sky Gupta is a Delhi-based
+                      Stand-up comedian, Actor, Writer and Metro traveler. His
+                      acts are completely in Hindi and it’s hilarious,
+                      <em>
+                        {' '}
+                        toh apne ander ke nationalist ko khul kar hasne ka
+                        chance dijiye.
+                      </em>
                     </span>
                   </div>
                 </div>
@@ -157,13 +158,14 @@ class Artists1 extends Component {
                   <br />
                   <div className='textAboutDiv'>
                     <span className='textAbout'>
-                      Lawyer turned entrepreneur turned stand-up comic. What
-                      made him popular amongst the youth? His videos like
-                      cheating and waxing. After breaking the internet, Bassi is
-                      on the road to break hearts across India with his
-                      painfully funny stand up ‘Bas Kar Bassi’. Chalta hai
-                      comedy brings Anubhav Bassi to the biggest event of
-                      Bennett University, ‘Uphoria’ for a hilarious evening.
+                      His acts are completely in Hindi and it’s hilarious,
+                      Aakash Gupta also known as Sky Gupta is a Delhi-based
+                      Stand-up comedian, Actor, Writer and Metro traveler.{' '}
+                      <em>
+                        {' '}
+                        toh apne ander ke nationalist ko khul kar hasne ka
+                        chance dijiye.
+                      </em>
                     </span>
                   </div>
                 </div>
