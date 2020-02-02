@@ -5,6 +5,7 @@ import Theme from './Theme';
 import Sponsors from './Sponsors';
 import Artists1 from './Artists1';
 import Gallery from './Gallery';
+import Events from './Events';
 import Footer from './Footer';
 
 // import Form from './regform/index';
@@ -13,14 +14,14 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Upper />
-        <About id="About" />
-        <Theme />
-        <Sponsors />
-        <Artists1 />
-        <Gallery />
+          {/* <Upper />
+          <About id="About" />
+          <Theme />
+          <Sponsors />
+          <Artists1 />
+          <Gallery /> */}
+        <Events />
         <Footer />
-
         {/* <Form></Form> */}
       </React.Fragment>
     );
