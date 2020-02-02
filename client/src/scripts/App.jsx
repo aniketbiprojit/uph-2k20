@@ -1,30 +1,37 @@
-import React, { Component } from 'react';
-import Upper from './Upper';
-import About from './About';
-import Theme from './Theme';
-import Sponsors from './Sponsors';
-import Artists1 from './Artists1';
-import Gallery from './Gallery';
-import Footer from './Footer';
+import React, { Component } from 'react'
+import Upper from './Upper'
+import About from './About'
+import Theme from './Theme'
+import Sponsors from './Sponsors'
+import Artists1 from './Artists1'
+import Gallery from './Gallery'
+import Footer from './Footer'
 
-// import Form from './regform/index';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import Form from './regform/index'
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Upper />
-        <About id="About" />
-        <Theme />
-        <Sponsors />
-        <Artists1 />
-        <Gallery />
-        <Footer />
+        <Router>
+          <Route path='/' exact>
+            <Upper />
+            <About id='About' />
+            <Theme />
+            <Sponsors />
+            <Artists1 />
+            <Gallery />
+            <Footer />
+          </Route>
 
-        {/* <Form></Form> */}
+          <Route path='/form'>
+            <Form></Form>
+          </Route>
+        </Router>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default App;
+export default App
