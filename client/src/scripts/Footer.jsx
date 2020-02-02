@@ -1,6 +1,6 @@
-import React from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
-import '../styles/Footer.scss';
+import React from "react";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import "../styles/Footer.scss";
 const Footer = () => {
   return (
     <MDBFooter
@@ -19,36 +19,52 @@ const Footer = () => {
             </p>
           </MDBCol>
           <MDBCol md="3">
-            <h5 className="title1 ">Links</h5>
+            <h5 className="title1 ">Our Team</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="#!">Mohammed Haaris Beg</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <a href="#!">Bhavya Patunjal</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+                <a href="#!">Triya Gulati</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+                <a href="#!">Aritro Sen</a>
+              </li>{" "}
+              <li className="list-unstyled">
+                <a href="#!">Abhishek Dubey</a>
               </li>
             </ul>
-          </MDBCol>{' '}
+          </MDBCol>{" "}
           <MDBCol md="3">
-            <h5 className="title1 ">Links</h5>
+            <h5 className="title1 ">Social Media</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="https://www.instagram.com/bu_uphoria/">
+                  Instagram-BU_Uphoria
+                </a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <a href="https://www.instagram.com/bennettians/">
+                  Instagram-Bennettians
+                </a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+                <a href="https://www.instagram.com/bennettuniv/">
+                  Instagram-Bennett Univ
+                </a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+                <a href="Bennett.edu.in">
+                  Website-Bennett Univ</a>{" "}
+                <li className="list-unstyled">
+                  <a href="https://www.youtube.com/channel/UCHfIzAGikq-VCo60xvl_VLQ">
+                    {" "}
+                    Youtube-Bennett Univ
+                  </a>
+                </li>
               </li>
             </ul>
           </MDBCol>
@@ -56,7 +72,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright:{' '}
+          &copy; {new Date().getFullYear()} Copyright:{" "}
           <a href="https://www.Bennett.edu.in">Bennett University </a>
         </MDBContainer>
       </div>
