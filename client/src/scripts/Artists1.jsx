@@ -1,62 +1,64 @@
-import React, { Component } from 'react';
-import '../styles/Artists1.scss';
+import React, { Component } from 'react'
+import '../styles/Artists1.scss'
 // import ritviz from '../assets/2.png';
-import ritviz from '../assets/ritviz.png';
-import bassi from '../assets/bassi.png';
-import yellowDiaries from '../assets/yellow-diaries.png';
+import ritviz from '../assets/ritviz.png'
+import bassi from '../assets/bassi.png'
+import yellowDiaries from '../assets/yellow-diaries.png'
 
 class Artists1 extends Component {
-  state = {};
+  state = {}
   render() {
     return (
       <React.Fragment>
         {/* artist 1 */}
-        <div className="Artists1 onPc" id = "artists">
-          <span className="heading link--kukuri">Artists</span>
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+        <div className='Artists1 onPc' id='artists'>
+          <span className='heading link--kukuri'>Artists</span>
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">Ritviz</span>
+                <div className='aboutArtist'>
+                  <span className='text'>DJ NYK</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
-                      An electronic music artist who garnered fame post his
-                      Bacardi House Party hit ‘Udd Gaye’, Ritviz is known for
-                      his dynamic and upbeat music. His talent manages to pull
-                      large crowds, no matter where he goes. The music Ritviz
-                      creates resonates with students across the spectrum.
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
+                      DJ / Producer / Radio Host / Visual Artist & Coach, NYK,
+                      aka Nikhil Sahni is a unique artist who has successfully
+                      brought together two seemingly disparate worlds. He is the
+                      man responsible for making audiences worldwide, wake up to
+                      what could best be termed a two-fold amalgam, of Bollywood
+                      beats and electronic dance music.{' '}
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={ritviz} className="imageArtist" alt="" />
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={ritviz} className='imageArtist' alt='' />
             </div>
           </div>
         </div>
-        <div className="Artists1 onPhone">
-          <span className="heading">Artists</span>
+        <div className='Artists1 onPhone'>
+          <span className='heading'>Artists</span>
 
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={ritviz} className="imageArtist" alt="" />
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={ritviz} className='imageArtist' alt='' />
             </div>
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">Ritviz</span>
+                <div className='aboutArtist'>
+                  <span className='text'>DJ NYK</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
-                      An electronic music artist who garnered fame post his
-                      Bacardi House Party hit ‘Udd Gaye’, Ritviz is known for
-                      his dynamic and upbeat music. His talent manages to pull
-                      large crowds, no matter where he goes. The music Ritviz
-                      creates resonates with students across the spectrum.
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
+                      DJ / Producer / Radio Host / Visual Artist & Coach, NYK,
+                      aka Nikhil Sahni is a unique artist who has successfully
+                      brought together two seemingly disparate worlds. He is the
+                      man responsible for making audiences worldwide, wake up to
+                      what could best be termed a two-fold amalgam, of Bollywood
+                      beats and electronic dance music.{' '}
                     </span>
                   </div>
                 </div>
@@ -65,25 +67,23 @@ class Artists1 extends Component {
           </div>
         </div>
         {/* artist 2 */}
-        <div className="Artists1 onPc ">
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={yellowDiaries} className="imageArtist" alt="" />
+        <div className='Artists1 onPc '>
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={yellowDiaries} className='imageArtist' alt='' />
             </div>
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">The Yellow Diaries</span>
+                <div className='aboutArtist'>
+                  <span className='text'>Akhil Sachdeva</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
-                      The Yellow Diary is an alternative rock band that stormed
-                      the indie music scene with their very first song, ‘Marz’.
-                      Describing their songs as ‘poetry with rock’, every piece
-                      it touches the soul of their listeners. The hard-hitting
-                      lyrics with a rock and electronic soundscape make their
-                      music a rollercoaster of a ride.
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
+                      Akhil Sachdeva is an Indian musician, singer and composer.
+                      He is best known for his Bollywood debut Humsafar in
+                      Badrinath ki Dulhaniya. His latest single "Tera Ban
+                      Jaunga" was feature in Kabir Singh.
                     </span>
                   </div>
                 </div>
@@ -91,25 +91,23 @@ class Artists1 extends Component {
             </div>
           </div>
         </div>
-        <div className="Artists1 onPhone">
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={yellowDiaries} className="imageArtist" alt="" />
+        <div className='Artists1 onPhone'>
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={yellowDiaries} className='imageArtist' alt='' />
             </div>
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">The Yellow Diaries</span>
+                <div className='aboutArtist'>
+                  <span className='text'>Akhil Sachdeva</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
-                      The Yellow Diary is an alternative rock band that stormed
-                      the indie music scene with their very first song, ‘Marz’.
-                      Describing their songs as ‘poetry with rock’, every piece
-                      it touches the soul of their listeners. The hard-hitting
-                      lyrics with a rock and electronic soundscape make their
-                      music a rollercoaster of a ride.
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
+                      Akhil Sachdeva is an Indian musician, singer and composer.
+                      He is best known for his Bollywood debut Humsafar in
+                      Badrinath ki Dulhaniya. His latest single "Tera Ban
+                      Jaunga" was feature in Kabir Singh.
                     </span>
                   </div>
                 </div>
@@ -119,16 +117,16 @@ class Artists1 extends Component {
         </div>
         {/* artist 3 */}
 
-        <div className="Artists1 onPc">
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+        <div className='Artists1 onPc'>
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">Anubhav Singh Bassi</span>
+                <div className='aboutArtist'>
+                  <span className='text'>Aakash Gupta</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
                       Lawyer turned entrepreneur turned stand-up comic. What
                       made him popular amongst the youth? His videos like
                       cheating and waxing. After breaking the internet, Bassi is
@@ -141,24 +139,24 @@ class Artists1 extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={bassi} className="imageArtist" alt="" />
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={bassi} className='imageArtist' alt='' />
             </div>
           </div>
         </div>
-        <div className="Artists1 onPhone">
-          <div className="row  Artists1_Grid">
-            <div className="col-sm-12 col-md-6 imageArtistDiv">
-              <img src={bassi} className="imageArtist" alt="" />
+        <div className='Artists1 onPhone'>
+          <div className='row  Artists1_Grid'>
+            <div className='col-sm-12 col-md-6 imageArtistDiv'>
+              <img src={bassi} className='imageArtist' alt='' />
             </div>
-            <div className="col-sm-12 col-md-6">
-              <div className="Artists1_text">
+            <div className='col-sm-12 col-md-6'>
+              <div className='Artists1_text'>
                 <br />
-                <div className="aboutArtist">
-                  <span className="text">Anubhav Singh Bassi</span>
+                <div className='aboutArtist'>
+                  <span className='text'>Aakash Gupta</span>
                   <br />
-                  <div className="textAboutDiv">
-                    <span className="textAbout">
+                  <div className='textAboutDiv'>
+                    <span className='textAbout'>
                       Lawyer turned entrepreneur turned stand-up comic. What
                       made him popular amongst the youth? His videos like
                       cheating and waxing. After breaking the internet, Bassi is
@@ -174,8 +172,8 @@ class Artists1 extends Component {
           </div>
         </div>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default Artists1;
+export default Artists1
