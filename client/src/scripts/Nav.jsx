@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Nav.scss";
 // import register from 'https://www.uphoria.co.in/form';
-// import { ExternalLink } from 'react-external-link';
+import { Link } from 'react-router-dom';
 export default class Nav extends Component {
   render() {
     return (
@@ -56,10 +56,13 @@ export default class Nav extends Component {
               <div className="elem col-2 ">
               {/* <ExternalLink href="https://www.uphoria.co.in/form" > */}
                   <p className="text">
-                    <a href="https://www.uphoria.co.in/form">
+                    <Link to='/form'>
+                      
+                    {/* <a href="uphoria.co.in/form"> */}
                       {" "}
                       Register
-                    </a>
+                    {/* </a> */}
+                    </Link>
                   </p>
                   {/* </ExternalLink> */}
                 {/* </a> */}
