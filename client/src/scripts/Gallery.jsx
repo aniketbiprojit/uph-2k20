@@ -9,6 +9,8 @@ import image_3 from "../assets/image_3.jpg";
 import image_4 from "../assets/image_4.jpg";
 import image_5 from "../assets/image_5.jpg";
 import image_6 from "../assets/image_6.jpg";
+// import {  useState, useRef } from 'react';
+// import { usePdf } from '@mikecousins/react-pdf';
 class Gallery extends Component {
   state = {};
   render() {
@@ -58,6 +60,8 @@ class Gallery extends Component {
                 <img src={image_6} alt="" className="masonryImage" />{" "}
               </div>
             </Slider>
+
+            
           </div>
 
           <div className="onPhone">
