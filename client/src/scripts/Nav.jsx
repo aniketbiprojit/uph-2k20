@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Nav.scss";
 // import register from 'https://www.uphoria.co.in/form';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 export default class Nav extends Component {
   render() {
     return (
@@ -58,7 +58,7 @@ export default class Nav extends Component {
                   <p className="text">
                     {/* <Link to='/form'> */}
                       
-                    <a href="/form/">
+                    <a href="https://www.uphoria.co.in/#register">
                       {" "}
                       Register
                     </a>

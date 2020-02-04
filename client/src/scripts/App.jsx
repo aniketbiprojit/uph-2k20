@@ -5,7 +5,7 @@ import Theme from "./Theme";
 import Sponsors from "./Sponsors";
 import Artists1 from "./Artists1";
 import Gallery from "./Gallery";
-import Events from "./Events";
+// import Events from "./Events";
 import Footer from "./Footer";
 import Form1 from "./Form";
 import { Route, BrowserRouter as Router } from "react-router-dom";
@@ -24,7 +24,10 @@ class App extends Component {
             <Artists1 />
             <Gallery />
             {/* <Events /> */}
-            <Form1 />
+
+            <div className="onPc">
+              <Form1 />
+            </div>
             <Footer />
           </Route>
 
