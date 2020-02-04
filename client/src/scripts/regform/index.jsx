@@ -11,7 +11,7 @@ import axios from 'axios'
 //   event.preventDefault();
 //   const data = new FormData(event.target);
 
-//   fetch('url daal chutiye', {
+//   fetch('url', {
 //     method: 'POST',
 //     body: data
 //   });
@@ -55,7 +55,7 @@ class Form extends Component {
 
   render() {
     return (
-      <div className='page-wrapper mainForm bg-white card1 p-t-80 p-b-80'>
+      <div className='page-wrapper mainForm card1'>
         <div className='wrapper wrapper--w780'>
           <div className='card card-3'>
             <div className='card-heading'></div>

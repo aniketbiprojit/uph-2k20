@@ -56,13 +56,13 @@ export default class Nav extends Component {
               <div className="elem col-2 ">
               {/* <ExternalLink href="https://www.uphoria.co.in/form" > */}
                   <p className="text">
-                    <Link to='/form'>
+                    {/* <Link to='/form'> */}
                       
-                    {/* <a href="uphoria.co.in/form"> */}
+                    <a href="/form/">
                       {" "}
                       Register
-                    {/* </a> */}
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                   </p>
                   {/* </ExternalLink> */}
                 {/* </a> */}
