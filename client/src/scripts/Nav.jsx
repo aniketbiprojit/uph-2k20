@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../styles/Nav.scss";
-import Form2 from "./regform/index";
+// import Form2 from "./regform/index";
 // import { Link } from 'react-router-dom';
-import { MDBContainer, MDBModal, MDBModalBody, MDBBtn } from "mdbreact";
+// import { MDBContainer, MDBModal, MDBModalBody, MDBBtn } from "mdbreact";
 export default class Nav extends Component {
   state = {
     modal14: false
