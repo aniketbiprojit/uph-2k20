@@ -34,6 +34,13 @@ section.Upper {
         }
       }
     }
+    .register1 {
+      text-align: center;
+      // margin-top: 100px;
+    }
+    .buttonreg {
+      height:60px;
+    }
     .dates {
       transform: translateY(-20%);
       margin-right: 0;
@@ -43,8 +50,7 @@ section.Upper {
         text-align: right;
         // width:fit-content;
         @media only screen and (max-width: 768px) {
-
-        font-size:0.8rem;
+          font-size: 0.8rem;
         }
       }
       .heavy {
@@ -85,11 +91,11 @@ section.Upper {
     width: 80%;
   }
 }
-.registerPhone{
+.registerPhone {
   border-radius: 30px;
   width: fit-content;
 }
-.text1{
-  color:black;
+.text1 {
+  color: black;
   font-weight: 600;
 }

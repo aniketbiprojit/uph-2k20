@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import "../styles/Nav.scss";
-// import register from 'https://www.uphoria.co.in/form';
+import Form2 from "./regform/index";
 // import { Link } from 'react-router-dom';
+import { MDBContainer, MDBModal, MDBModalBody, MDBBtn } from "mdbreact";
 export default class Nav extends Component {
+  state = {
+    modal14: false
+  };
+  toggle = nr => () => {
+    let modalNumber = "modal" + nr;
+    this.setState({
+      [modalNumber]: !this.state[modalNumber]
+    });
+  };
   render() {
     return (
       <div className="nav">
@@ -16,59 +26,8 @@ export default class Nav extends Component {
               </p>
             </div>
           </div>
-          <div className="right  col-6">
-            <nav className="row">
-              <div className="elem col-2"></div>
-              <div className="elem col-2">
-                <p className="text"> 
-                <a href="https://www.uphoria.co.in/#about">
-
-                About Us
-                </a>
-                </p>
-              </div>
-              <div className="elem col-2">
-
-                <p className="text"> 
-              <a href="https://www.uphoria.co.in/#theme">
-                
-                Theme
-                
-                </a></p>
-              </div>
-              <div className="elem col-2">
-
-                
-                <p className="text"> 
-                <a href="https://www.uphoria.co.in/#sponsors">
-
-                Sponsors
-
-                </a></p>
-
-              </div>
-              <div className="elem col-2">
-                <p className="text">
-                <a href="https://www.uphoria.co.in/#artists">
-                   Artists</a>
-                   </p>
-              </div>
-              <div className="elem col-2 ">
-              {/* <ExternalLink href="https://www.uphoria.co.in/form" > */}
-                  <p className="text">
-                    {/* <Link to='/form'> */}
-                      
-                    <a href="https://www.uphoria.co.in/#register">
-                      {" "}
-                      Register
-                    </a>
-                    {/* </Link> */}
-                  </p>
-                  {/* </ExternalLink> */}
-                {/* </a> */}
-              </div>
-            </nav>
-          </div>
+            <div className="left  col-6">
+            </div>
         </div>
       </div>
     );
