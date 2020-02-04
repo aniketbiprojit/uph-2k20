@@ -60,7 +60,7 @@ export default class Upper extends Component {
                     <MDBModalBody className="MDBmodal">
                       <Form2 />
                       <MDBBtn
-                        color="primary"
+                        color="white"
                         className="registerPhone"
                         onClick={this.toggle(14)}
                       >
@@ -88,7 +88,7 @@ export default class Upper extends Component {
                     <MDBModalBody className="MDBmodal">
                       <Form2 />
                       <MDBBtn
-                        color="primary"
+                        color="white"
                         className="registerPhone"
                         onClick={this.toggle(14)}
                       >

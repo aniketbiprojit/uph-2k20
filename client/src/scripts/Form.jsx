@@ -17,12 +17,12 @@ toggle = nr => () => {
 render() {
   return (
       <MDBContainer d="register" className= "register">
-        <MDBBtn  color="primary" className="registerPhone" onClick={this.toggle(14)}>Register Here</MDBBtn>
+        <MDBBtn  color="white" className="registerPhone z-depth-3" onClick={this.toggle(14)}> Register Here  </MDBBtn>
         <MDBModal size="fluid"   className="modalOut"  isOpen={this.state.modal14}  centered>
           {/* <MDBModalHeader toggle={this.toggle(14)}></MDBModalHeader> */}
           <MDBModalBody  className = "MDBmodal">
            <Form2   />
-           <MDBBtn  color="primary" className="registerPhone" onClick={this.toggle(14)}>Close</MDBBtn>
+           <MDBBtn  color="white" className="registerPhone" onClick={this.toggle(14)}>Close</MDBBtn>
           </MDBModalBody>
          
           

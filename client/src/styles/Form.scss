@@ -2,15 +2,24 @@
     margin-top: 50px;
 text-align: center;
 // height:100vh;
+color:black;
 padding:0 !important;}
 
 
 .modalOut{
-    height:100vh;
+color:black;
+height:100vh;
 }
 .modal-content{
 height:100vh;
-    // margin:0 !important;
+color:black;
+// margin:0 !important;
 
     background: none;
+}
+.registerPhone{
+    color: black;
+font-weight: 600;
+border: 0.3px black solid;
+height:60px;
 }
