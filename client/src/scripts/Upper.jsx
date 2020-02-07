@@ -22,10 +22,8 @@ export default class Upper extends Component {
   render() {
     return (
       <section className="main Upper">
-        <div className="onPc">
 
         <Nav />
-        </div>
       
         <div className="dabba">
           

@@ -23,7 +23,7 @@ class Sponsors extends Component {
         <div className="outer_Sponsors " id= "sponsors">
           <div className="inner">
             <span className="heading link--kukuri  headingSponsors">
-              Previous Sponsors
+              Our Sponsors
             </span>
           </div>
           <div className="onPhone">

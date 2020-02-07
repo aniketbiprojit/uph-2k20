@@ -26,8 +26,7 @@ export default class Nav extends Component {
               </p>
             </div>
           </div>
-            <div className="left  col-6">
-            </div>
+           
         </div>
       </div>
     );
