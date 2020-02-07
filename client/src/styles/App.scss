@@ -8,7 +8,8 @@
 .appOuter{
     // overflow: hidden;
     margin:0 !important;
-    width: 90vw !important;
-    position: fixed !important;
+    width: 100% !important;
+    // position: fixed !important;
+    position: relative !important;
     overflow-x: hidden !important;
 }
