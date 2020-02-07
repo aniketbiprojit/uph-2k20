@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import '../styles/Sponsors.scss';
-import sterling from '../assets/sterling.png';
-import airtel from '../assets/airtel.png';
-import kia from '../assets/kia.png';
-import indus from '../assets/indus.png';
-import ics from '../assets/ics.png';
-import monster from '../assets/monster.png';
-import reverb from '../assets/reverb.png';
-import rolls from '../assets/rolls.png';
-import toi from '../assets/toi.png';
-import va from '../assets/va.png';
-import nike from '../assets/nike.png';
-import jio from '../assets/jio.png';
+import brewhouse from '../assets/brewhouse.png';
+import campusbloggers from '../assets/campusbloggers.png';
+import cornitos from '../assets/cornitos.png';
+import dubeat from '../assets/dubeat.png';
+import duexpress from '../assets/duexpress.png';
+import ed from '../assets/ed.png';
+import emoi from '../assets/emoi.png';
+import intercell from '../assets/intercell.png';
+import microsoft from '../assets/microsoft.png';
+import ohcampus from '../assets/ohcampus.png';
+import pizzasquare from '../assets/pizzasquare.png';
+import theeducationtree from '../assets/theeducationtree.png';
+
 
 import ClientSlider from './ClientSlider';
 class Sponsors extends Component {
@@ -33,68 +34,69 @@ class Sponsors extends Component {
             <div className="row">
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={sterling} alt="" />
+                  <img className="sponsorImage" src={brewhouse} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={airtel} alt="" />
+                  <img className="sponsorImage" src={campusbloggers} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={kia} alt="" />
+                  <img className="sponsorImage" src={cornitos} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={indus} alt="" />
+                  <img className="sponsorImage" src={dubeat} alt="" />
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={ics} alt="" />
+                  <img className="sponsorImage" src={duexpress} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={monster} alt="" />
+                  <img className="sponsorImage" src={ed} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={reverb} alt="" />
+                  <img className="sponsorImage" src={emoi} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={rolls} alt="" />
+                  <img className="sponsorImage" src={intercell} alt="" />
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={toi} alt="" />
+                  <img className="sponsorImage" src={microsoft} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={va} alt="" />
+                  <img className="sponsorImage" src={ohcampus} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={nike} alt="" />
+                  <img className="sponsorImage" src={pizzasquare} alt="" />
                 </p>
               </div>
               <div className="col-sm-6 col-md-3 sponsorDabba">
                 <p>
-                  <img className="sponsorImage" src={jio} alt="" />
+                  <img className="sponsorImage" src={theeducationtree} alt="" />
                 </p>
               </div>
+              
             </div>
           </div>
         </div>

@@ -2,17 +2,18 @@ import React from 'react';
 import range from 'lodash/range';
 import styled from 'styled-components';
 import ItemsCarousel from 'react-items-carousel';
-import sterling from '../assets/sterling.png';
-import airtel from '../assets/airtel.png';
-import kia from '../assets/kia.png';
-import indus from '../assets/indus.png';
-import ics from '../assets/ics.png';
-import monster from '../assets/monster.png';
-import reverb from '../assets/reverb.png';
-import rolls from '../assets/rolls.png';
-import toi from '../assets/toi.png';
-import nike from '../assets/nike.png';
-import jio from '../assets/jio.png';
+import brewhouse from '../assets/brewhouse.png';
+import campusbloggers from '../assets/campusbloggers.png';
+import cornitos from '../assets/cornitos.png';
+import dubeat from '../assets/dubeat.png';
+import duexpress from '../assets/duexpress.png';
+import ed from '../assets/ed.png';
+import emoi from '../assets/emoi.png';
+import intercell from '../assets/intercell.png';
+import microsoft from '../assets/microsoft.png';
+import ohcampus from '../assets/ohcampus.png';
+import pizzasquare from '../assets/pizzasquare.png';
+import theeducationtree from '../assets/theeducationtree.png';
 
 // import { image } from "../assets/2.jpg";
 import '../styles/ClientSlider.scss';
@@ -80,40 +81,40 @@ export default class ClientSlider extends React.Component {
             children={carouselItems}
           >
             <div className="carouselCard">
-              <img className="image_client" src={sterling} alt="" /> <br />
+              <img className="image_client" src={brewhouse} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={airtel} alt="" /> <br />
+              <img className="image_client" src={campusbloggers} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={kia} alt="" /> <br />
+              <img className="image_client" src={cornitos} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={indus} alt="" /> <br />
+              <img className="image_client" src={dubeat} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={ics} alt="" /> <br />
+              <img className="image_client" src={duexpress} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={monster} alt="" /> <br />
+              <img className="image_client" src={ed} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={reverb} alt="" /> <br />
+              <img className="image_client" src={emoi} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={rolls} alt="" /> <br />
+              <img className="image_client" src={intercell} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={toi} alt="" /> <br />
+              <img className="image_client" src={microsoft} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={nike} alt="" /> <br />
+              <img className="image_client" src={ohcampus} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={jio} alt="" /> <br />
+              <img className="image_client" src={pizzasquare} alt="" /> <br />
             </div>
             <div className="carouselCard">
-              <img className="image_client" src={airtel} alt="" /> <br />
+              <img className="image_client" src={theeducationtree} alt="" /> <br />
             </div>
           </ItemsCarousel>
         </Wrapper>
