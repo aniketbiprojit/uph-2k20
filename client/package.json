@@ -21,7 +21,7 @@
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1",
-    "three": "^0.105.2",
+    "three": "^0.125.0",
     "three-orbitcontrols": "^2.102.1"
   },
   "scripts": {
